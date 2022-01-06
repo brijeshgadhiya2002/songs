@@ -25,16 +25,16 @@ document.querySelector('#Stay').onclick = () => {
     player19.classList.remove('active2');
     player20.classList.remove('active2');
 
-    player21.classList.remove('active4');
-    player22.classList.remove('active4');
-    player23.classList.remove('active4');
-    player24.classList.remove('active4');
-    player25.classList.remove('active4');
-    player26.classList.remove('active4');
-    player27.classList.remove('active4');
-    player28.classList.remove('active4');
-    player29.classList.remove('active4');
-    player30.classList.remove('active4');
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
 
     player41.classList.remove('active5');
     player42.classList.remove('active5');
@@ -81,16 +81,16 @@ document.querySelector('#On-My-Way').onclick = () => {
     player19.classList.remove('active2');
     player20.classList.remove('active2');
 
-    player21.classList.remove('active4');
-    player22.classList.remove('active4');
-    player23.classList.remove('active4');
-    player24.classList.remove('active4');
-    player25.classList.remove('active4');
-    player26.classList.remove('active4');
-    player27.classList.remove('active4');
-    player28.classList.remove('active4');
-    player29.classList.remove('active4');
-    player30.classList.remove('active4');
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
 
     player41.classList.remove('active5');
     player42.classList.remove('active5');
@@ -137,16 +137,16 @@ document.querySelector('#Love-Nwantinti').onclick = () => {
     player19.classList.remove('active2');
     player20.classList.remove('active2');
 
-    player21.classList.remove('active4');
-    player22.classList.remove('active4');
-    player23.classList.remove('active4');
-    player24.classList.remove('active4');
-    player25.classList.remove('active4');
-    player26.classList.remove('active4');
-    player27.classList.remove('active4');
-    player28.classList.remove('active4');
-    player29.classList.remove('active4');
-    player30.classList.remove('active4');
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
 
     player41.classList.remove('active5');
     player42.classList.remove('active5');
@@ -193,16 +193,16 @@ document.querySelector('#Closer').onclick = () => {
     player19.classList.remove('active2');
     player20.classList.remove('active2');
 
-    player21.classList.remove('active4');
-    player22.classList.remove('active4');
-    player23.classList.remove('active4');
-    player24.classList.remove('active4');
-    player25.classList.remove('active4');
-    player26.classList.remove('active4');
-    player27.classList.remove('active4');
-    player28.classList.remove('active4');
-    player29.classList.remove('active4');
-    player30.classList.remove('active4');
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
 
     player41.classList.remove('active5');
     player42.classList.remove('active5');
@@ -249,16 +249,16 @@ document.querySelector('#Cheap-Thrills').onclick = () => {
     player19.classList.remove('active2');
     player20.classList.remove('active2');
 
-    player21.classList.remove('active4');
-    player22.classList.remove('active4');
-    player23.classList.remove('active4');
-    player24.classList.remove('active4');
-    player25.classList.remove('active4');
-    player26.classList.remove('active4');
-    player27.classList.remove('active4');
-    player28.classList.remove('active4');
-    player29.classList.remove('active4');
-    player30.classList.remove('active4');
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
 
     player41.classList.remove('active5');
     player42.classList.remove('active5');
@@ -305,16 +305,16 @@ document.querySelector('#Into-Your-Arms').onclick = () => {
     player19.classList.remove('active2');
     player20.classList.remove('active2');
 
-    player21.classList.remove('active4');
-    player22.classList.remove('active4');
-    player23.classList.remove('active4');
-    player24.classList.remove('active4');
-    player25.classList.remove('active4');
-    player26.classList.remove('active4');
-    player27.classList.remove('active4');
-    player28.classList.remove('active4');
-    player29.classList.remove('active4');
-    player30.classList.remove('active4');
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
 
     player41.classList.remove('active5');
     player42.classList.remove('active5');
@@ -361,16 +361,16 @@ document.querySelector('#Unstoppable').onclick = () => {
     player19.classList.remove('active2');
     player20.classList.remove('active2');
 
-    player21.classList.remove('active4');
-    player22.classList.remove('active4');
-    player23.classList.remove('active4');
-    player24.classList.remove('active4');
-    player25.classList.remove('active4');
-    player26.classList.remove('active4');
-    player27.classList.remove('active4');
-    player28.classList.remove('active4');
-    player29.classList.remove('active4');
-    player30.classList.remove('active4');
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
 
     player41.classList.remove('active5');
     player42.classList.remove('active5');
@@ -417,16 +417,16 @@ document.querySelector('#Let-Me-Down-Slowly').onclick = () => {
     player19.classList.remove('active2');
     player20.classList.remove('active2');
 
-    player21.classList.remove('active4');
-    player22.classList.remove('active4');
-    player23.classList.remove('active4');
-    player24.classList.remove('active4');
-    player25.classList.remove('active4');
-    player26.classList.remove('active4');
-    player27.classList.remove('active4');
-    player28.classList.remove('active4');
-    player29.classList.remove('active4');
-    player30.classList.remove('active4');
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
 
     player41.classList.remove('active5');
     player42.classList.remove('active5');
@@ -473,16 +473,16 @@ document.querySelector('#Faded').onclick = () => {
     player19.classList.remove('active2');
     player20.classList.remove('active2');
 
-    player21.classList.remove('active4');
-    player22.classList.remove('active4');
-    player23.classList.remove('active4');
-    player24.classList.remove('active4');
-    player25.classList.remove('active4');
-    player26.classList.remove('active4');
-    player27.classList.remove('active4');
-    player28.classList.remove('active4');
-    player29.classList.remove('active4');
-    player30.classList.remove('active4');
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
 
     player41.classList.remove('active5');
     player42.classList.remove('active5');
@@ -530,16 +530,16 @@ document.querySelector('#Let-Me-Love-You').onclick = () => {
     player19.classList.remove('active2');
     player20.classList.remove('active2');
 
-    player21.classList.remove('active4');
-    player22.classList.remove('active4');
-    player23.classList.remove('active4');
-    player24.classList.remove('active4');
-    player25.classList.remove('active4');
-    player26.classList.remove('active4');
-    player27.classList.remove('active4');
-    player28.classList.remove('active4');
-    player29.classList.remove('active4');
-    player30.classList.remove('active4');
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
 
     player41.classList.remove('active5');
     player42.classList.remove('active5');
