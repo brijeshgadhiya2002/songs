@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- font awesome Logo link  -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="ALL CSS FILES/index-style.css">
+
+</head>
+
+<body>
+    <!------------------------------------------------------------>
+    <!-- header section starts  -->
+    <header class="header">
+        <div class="music_container">
+            <i class='bx bxs-x-circle' id="cross"></i>
+            <h2 id="title">Tip-Tip</h2>
+            <h3 id="artist">udit Narayan</h3>
+            <div class="img_container">
+                <img src="images/tip-tip.webp" alt="">
+            </div>
+            <audio src="music/tip-tip.mp3"></audio>
+
+            <!-- progress bar -->
+            <div class="progressbar_container" id="progressbar_container">
+                <div class="progress_duration_meter">
+                    <div id="current_time">0:00</div>
+                    <div id="duration">4:10</div>
+                </div>
+                <div class="progress_div" id="progress_div">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <div class="music_controls">
+                <i class="fas fa-backward" id="prev" title="Previous"></i>
+                <i class="fas fa-play main_button" id="play" title="Play"></i>
+                <i class="fas fa-forward" id="next" title="Next"></i>
+            </div>
+        </div>
+        <div class="music_container2">
+            <i class='bx bxs-x-circle' id="cross2"></i>
+            <h2 id="title2">Chaka-Chak</h2>
+            <h3 id="artist2">udit Narayan</h3>
+            <div class="img_container2">
+                <img src="images/Chaka-Chak.webp" alt="" id="img2">
+            </div>
+            <audio src="music2/Chaka-Chak.mp3" id="audio2"></audio>
+
+            <!-- progress bar -->
+            <div class="progressbar_container2" id="progressbar_container2">
+                <div class="progress_duration_meter2">
+                    <div id="current_time2">0:00</div>
+                    <div id="duration2">4:29</div>
+                </div>
+                <div class="progress_div2" id="progress_div2">
+                    <div class="progress2" id="progress2"></div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <div class="music_controls2">
+                <i class="fas fa-backward" id="prev2" title="Previous2"></i>
+                <i class="fas fa-play main_button2" id="play2" title="Play2"></i>
+                <i class="fas fa-forward" id="next2" title="Next2"></i>
+            </div>
+        </div>
+        <div class="music_container3">
+            <i class='bx bxs-x-circle' id="cross3"></i>
+            <h2 id="title3">Stay</h2>
+            <h3 id="artist3">Stay</h3>
+            <div class="img_container3">
+                <img src="images/Stay.webp" alt="" id="img3">
+            </div>
+            <audio src="music3/Stay.mp3" id="audio3"></audio>
+            <!-- progress bar -->
+            <div class="progressbar_container3" id="progressbar_container3">
+                <div class="progress_duration_meter3">
+                    <div id="current_time3">0:00</div>
+                    <div id="duration3">2:37</div>
+                </div>
+                <div class="progress_div3" id="progress_div3">
+                    <div class="progress3" id="progress3"></div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <div class="music_controls3">
+                <i class="fas fa-backward" id="prev3" title="Previous3"></i>
+                <i class="fas fa-play main_button3" id="play3" title="Play3"></i>
+                <i class="fas fa-forward" id="next3" title="Next3"></i>
+            </div>
+        </div>
+        <div class="music_container4">
+            <i class='bx bxs-x-circle' id="cross4"></i>
+            <h2 id="title4">Rang Lagyo</h2>
+            <h3 id="artist4">Jen's Goyani,Neha Patel</h3>
+            <div class="img_container4">
+                <img src="images/Rang-Lagyo.webp" alt="" id="img4">
+            </div>
+            <audio src="music4/Rang-Lagyo.mp3" id="audio4"></audio>
+            <!-- progress bar -->
+            <div class="progressbar_container4" id="progressbar_container4">
+                <div class="progress_duration_meter4">
+                    <div id="current_time4">0:00</div>
+                    <div id="duration4">6:53</div>
+                </div>
+                <div class="progress_div4" id="progress_div4">
+                    <div class="progress4" id="progress4"></div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <div class="music_controls4">
+                <i class="fas fa-backward" id="prev4" title="Previous4"></i>
+                <i class="fas fa-play main_button4" id="play4" title="Play4"></i>
+                <i class="fas fa-forward" id="next4" title="Next4"></i>
+            </div>
+        </div>
+        <div class="music_container5">
+            <i class='bx bxs-x-circle' id="cross5"></i>
+            <h2 id="title5">Raataan-Lambiyan</h2>
+            <h3 id="artist5">Jubin Nautiyal</h3>
+            <div class="img_container5">
+                <img src="images/Raataan-Lambiyan.webp" alt="" id="img5">
+            </div>
+            <audio src="music5/Raataan-Lambiyan.mp3" id="audio5"></audio>
+            <!-- progress bar -->
+            <div class="progressbar_container5" id="progressbar_container5">
+                <div class="progress_duration_meter5">
+                    <div id="current_time5">0:00</div>
+                    <div id="duration5">3:50</div>
+                </div>
+                <div class="progress_div5" id="progress_div5">
+                    <div class="progress5" id="progress5"></div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <div class="music_controls5">
+                <i class="fas fa-backward" id="prev5" title="Previous5"></i>
+                <i class="fas fa-play main_button5" id="play5" title="Play5"></i>
+                <i class="fas fa-forward" id="next5" title="Next5"></i>
+            </div>
+        </div>
+        <a href="#" class="logo"> <i class='bx bxs-music'></i> <span>My</span>MUSIC </a>
+
+        <nav class="navbar">
+            <a href="#">home</a>
+            <a href="#">PODCASTS <img src="images/new.png" class="new" alt=""></a>
+            <a href="#" id="download">DOWNLOAD APP</a>
+            <a href="#">FEATURES</a>
+        </nav>
+
+        <div class="icons">
+            <div id="theme-toggler" class="fas fa-moon"></div>
+            <div id="language" class="fas fa-language"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search for music you love!">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+        <div class="lang">
+            <h1>Select Music Language[s]</h1>
+            <div class="line"></div>
+            <div class="bhasha">
+                <div class="box-bhasha">
+                    <p>इंग्रजी English</p>
+                </div>
+                <div class="box-bhasha">
+                    <p>ਪੰਜਾਬੀ Punjabi</p>
+                </div>
+                <div class="box-bhasha">
+                    <p>ગુજરાતી Gujarati</p>
+                </div>
+                <div class="box-bhasha">
+                    <p>ଓଡ଼ିଆ Oriya</p>
+                </div>
+                <div class="box-bhasha">
+                    <p>भोजपुरी Bhojpuri</p>
+                </div>
+            </div>
+            <div class="bhasha2">
+                <div class="box-bhasha2">
+                    <p>हिंदी Hindi</p>
+                </div>
+                <div class="box-bhasha2">
+                    <p>मराठी Marathi</p>
+                </div>
+                <div class="box-bhasha2">
+                    <p>ಕನ್ನಡ Kannada</p>
+                </div>
+                <div class="box-bhasha2">
+                    <p>हरयाण Haryanvi</p>
+                </div>
+                <div class="box-bhasha2">
+                    <p>বাংলা Bengali</p>
+                </div>
+            </div>
+            <div class="btnns">
+                <input type="submit" value="Save" class="save">
+            </div>
+        </div>
+
+
+    </header>
+    <!-- header section ends -->
+    <!------------------------------------------------------------>
+
+    <!------------------------------------------------------------>
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="row">
+            <div class="content">
+                <a href="#" class="logo"> <i class='bx bxs-music'></i> MY<span><span
+                            class="auto-input"></span></span></a>
+                <p>My Music is the one-stop music app for the latest to the greatest songs that you love. Play your
+                    favourite music online for free or download mp3. Enjoy Hindi, English, Bollywood, Regional,
+                    Latest,Old songs</p>
+                <a href="#" class="btn-2">Play Songs</a>
+            </div>
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="images/p1.webp" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="images/p2.webp" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="images/p3.webp" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="images/p4.webp" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="images/p5.webp" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="images/p6.webp" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="images/p7.webp" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="images/p8.webp" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="images/p9.webp" alt=""></a>
+                </div>
+                <img src="images/stand.png" class="stand" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- home section Ends  -->
+    <!------------------------------------------------------------>
+
+
+    <!-- Main section Starts  -->
+    <!------------------------------------------------------------>
+    <main class="row-1">
+        <h1>New Releases</h1>
+        <div class="cards cards-1">
+            <div class="card" id="tip-tip">
+                <img src="images/tip-tip.webp" alt="">
+                <p>Tip Tip</p>
+            </div>
+            <div class="card" id="kusu-kusu">
+                <img src="images/kusu-kusu.webp" alt="">
+                <p>Kusu Kusu</p>
+            </div>
+            <div class="card" id="Jugnu">
+                <img src="images/Jugnu.webp" alt="">
+                <p>Jugnu</p>
+            </div>
+            <div class="card" id="Koi-Sehri-Babu">
+                <img src="images/Koi-Sehri-Babu.webp" alt="">
+                <p>Koi Sehri Babu</p>
+            </div>
+            <div class="card" id="Duniya-Chhor-Doon">
+                <img src="images/Duniya-Chhor-Doon.webp" alt="">
+                <p>Duniya</p>
+            </div>
+            <div class="card" id="Jodaa">
+                <img src="images/Jodaa.webp" alt="">
+                <p>Jodaa</p>
+            </div>
+            <div class="card" id="Dilwale">
+                <img src="images/Dilwale.webp" alt="">
+                <p>Dilwale</p>
+            </div>
+            <div class="card" id="Kabhii-Tumhhe">
+                <img src="images/Kabhii-Tumhhe.webp" alt="">
+                <p>Shershaah</p>
+            </div>
+            <div class="card" id="Dil-Galti">
+                <img src="images/Dil-Galti.webp" alt="">
+                <p>Dil Galti Kar Baitha Hai</p>
+            </div>
+            <div class="card" id="Pyaar-Karte">
+                <img src="images/Pyaar-Karte.webp" alt="">
+                <p>Pyaar Karto Ho Na</p>
+            </div>
+        </div>
+        <h1 class="h2">Trending Songs</h1>
+        <div class="cards cards-2">
+            <div class="card" id="Chaka-Chak">
+                <img src="images/Chaka-Chak.webp" alt="">
+                <p>Chaka Chak</p>
+            </div>
+            <div class="card" id="Bijlee-Bijlee">
+                <img src="images/Bijlee-Bijlee.webp" alt="">
+                <p>Bijlee Bijlee</p>
+            </div>
+            <div class="card" id="Raflaan">
+                <img src="images/Raflaan.webp" alt="">
+                <p>2 Raflaan</p>
+            </div>
+            <div class="card" id="Sajna">
+                <img src="images/Sajna.webp" alt="">
+                <p>Sajna, Say Yes</p>
+            </div>
+            <div class="card" id="Feelinga">
+                <img src="images/Feelinga.webp" alt="">
+                <p>Feelinga</p>
+            </div>
+            <div class="card" id="Aashiqui">
+                <img src="images/Aashiqui.webp" alt="">
+                <p>Aashiqui Aa Gayi</p>
+            </div>
+            <div class="card" id="Hello">
+                <img src="images/Hello.webp" alt="">
+                <p>Hello</p>
+            </div>
+            <div class="card" id="Qatal">
+                <img src="images/Qatal.webp" alt="">
+                <p>Qatal</p>
+            </div>
+            <div class="card" id="Masked">
+                <img src="images/Masked.webp" alt="">
+                <p>It's You, Not Me</p>
+            </div>
+            <div class="card" id="Aashiq">
+                <img src="images/Aashiq.webp" alt="">
+                <p>Aashiq Mud Na Jaawe</p>
+            </div>
+        </div>
+        <h1 class="h3">English Songs</h1>
+        <div class="cards cards-3">
+            <div class="card" id="Stay">
+                <img src="images/Stay.webp" alt="">
+                <p>Stay</p>
+            </div>
+            <div class="card" id="On-My-Way">
+                <img src="images/On-My-Way.webp" alt="">
+                <p>On My Way</p>
+            </div>
+            <div class="card" id="Love-Nwantinti">
+                <img src="images/Love-Nwantinti.webp" alt="">
+                <p>love nwantiti</p>
+            </div>
+            <div class="card" id="Closer">
+                <img src="images/Closer.webp" alt="">
+                <p>Closer</p>
+            </div>
+            <div class="card" id="Cheap-Thrills">
+                <img src="images/Cheap-Thrills.webp" alt="">
+                <p>Cheap Thrills</p>
+            </div>
+            <div class="card" id="Into-Your-Arms">
+                <img src="images/Into-Your-Arms.webp" alt="">
+                <p>Into Your Arms</p>
+            </div>
+            <div class="card" id="Unstoppable">
+                <img src="images/Unstoppable.webp" alt="">
+                <p>Unstoppable</p>
+            </div>
+            <div class="card" id="Let-Me-Down-Slowly">
+                <img src="images/Let-Me-Down-Slowly.webp" alt="">
+                <p>Let Me Down Slowly</p>
+            </div>
+            <div class="card" id="Faded">
+                <img src="images/Faded.webp" alt="">
+                <p>Faded</p>
+            </div>
+            <div class="card" id="Let-Me-Love-You">
+                <img src="images/Let-Me-Love-You.webp" alt="">
+                <p>Let Me Love You</p>
+            </div>
+        </div>
+        <h1 class="h4">Gujarati Fusion</h1>
+        <div class="cards cards-4">
+            <div class="card" id="Rang-Lagyo">
+                <img src="images/Rang-Lagyo.webp" alt="">
+                <p>Rang Lagyo</p>
+            </div>
+            <div class="card" id="Ghoomariyu">
+                <img src="images/Ghoomariyu.webp" alt="">
+                <p>Ghumariyu</p>
+            </div>
+            <div class="card" id="Bol-Valam-Na">
+                <img src="images/Bol-Valam-Na.webp" alt="">
+                <p>Bol Valam Na</p>
+            </div>
+            <div class="card" id="Jode-Rejo-Raj">
+                <img src="images/Jode-Rejo-Raj.webp" alt="">
+                <p>Jode Rejo Raj</p>
+            </div>
+            <div class="card" id="Kana-Dwarika-Dekhad">
+                <img src="images/Kana-Dwarika-Dekhad.webp" alt="">
+                <p>Kana Mane Dwarika</p>
+            </div>
+            <div class="card" id="RADHA-NE-SHYAM">
+                <img src="images/RADHA-NE-SHYAM.webp" alt="">
+                <p>Radha Ne Shyam</p>
+            </div>
+            <div class="card" id="Maru-Man-Mohi-Gayu">
+                <img src="images/Maru-Man-Mohi-Gayu.webp" alt="">
+                <p>Maru Man Mohi Gayu</p>
+            </div>
+            <div class="card" id="Bhammariyado">
+                <img src="images/Bhammariyado.webp" alt="">
+                <p>Kalo Bhammariyalo</p>
+            </div>
+            <div class="card" id="Aam-Gotu">
+                <img src="images/Aam-Gotu.webp" alt="">
+                <p>Aam Gotu</p>
+            </div>
+            <div class="card" id="Unchi-Talavdi">
+                <img src="images/Unchi-Talavdi.webp" alt="">
+                <p>Unchi Talavdini Kor</p>
+            </div>
+        </div>
+        <h1 class="h5">Panjabi Songs</h1>
+        <div class="cards cards-5">
+            <div class="card" id="Raataan-Lambiyan">
+                <img src="images/Raataan-Lambiyan.webp" alt="">
+                <p>Raataan Lambiyan</p>
+            </div>
+            <div class="card" id="Najaa">
+                <img src="images/Najaa.webp" alt="">
+                <p>Najaa</p>
+            </div>
+            <div class="card" id="Distance-Love">
+                <img src="images/Distance-Love.webp" alt="">
+                <p>Distance Love</p>
+            </div>
+            <div class="card" id="Ranjha">
+                <img src="images/Ranjha.webp" alt="">
+                <p>Ranjha </p>
+            </div>
+            <div class="card" id="Mann-Bharryaa">
+                <img src="images/Mann-Bharryaa.webp" alt="">
+                <p>Mann Bharryaa 2.0</p>
+            </div>
+            <div class="card" id="Sakhiyan">
+                <img src="images/Sakhiyan.webp" alt="">
+                <p>Sakhiyan2.0</p>
+            </div>
+            <div class="card" id="Bande">
+                <img src="images/Bande.webp" alt="">
+                <p>12 Bande</p>
+            </div>
+            <div class="card" id="Yaari">
+                <img src="images/Yaari.webp" alt="">
+                <p>Yaari</p>
+            </div>
+            <div class="card" id="Bholenath">
+                <img src="images/Bholenath.webp" alt="">
+                <p>Bholenath</p>
+            </div>
+            <div class="card" id="Libaas">
+                <img src="images/Libaas.webp" alt="">
+                <p>Libaas</p>
+            </div>
+        </div>
+        <h1 class="h6">Marathi Songs</h1>
+        <div class="cards cards-6">
+            <div class="card" id="Deewana">
+                <img src="images/Deewana.webp" alt="">
+                <p>Deewana</p>
+            </div>
+            <div class="card" id="Majhi-Baay-Go">
+                <img src="images/Majhi-Baay-Go.webp" alt="">
+                <p>Majhi Baay Go</p>
+            </div>
+            <div class="card" id="Udhal-Ho">
+                <img src="images/Udhal-Ho.webp" alt="">
+                <p>Udhal Ho</p>
+            </div>
+            <div class="card" id="Majha-Pillu">
+                <img src="images/Majha-Pillu.webp" alt="">
+                <p>Majha Pillu</p>
+            </div>
+            <div class="card" id="Nawari-Distes-G">
+                <img src="images/Nawari-Distes-G.webp" alt="">
+                <p>Nawari Distes G</p>
+            </div>
+            <div class="card" id="Dimple">
+                <img src="images/Dimple.webp" alt="">
+                <p>Dimple</p>
+            </div>
+            <div class="card" id="Majhya-Raja-Ra">
+                <img src="images/Majhya-Raja-Ra.webp" alt="">
+                <p>Majhya Raja Ra</p>
+            </div>
+            <div class="card" id="Ararara">
+                <img src="images/Ararara.webp" alt="">
+                <p>Ararara</p>
+            </div>
+            <div class="card" id="Mi-Naad-Khula">
+                <img src="images/Mi-Naad-Khula.webp" alt="">
+                <p>Mi Naadkhula</p>
+            </div>
+            <div class="card" id="Roop-Sajar">
+                <img src="images/Roop-Sajar.webp" alt="">
+                <p>Roop Sajar</p>
+            </div>
+        </div>
+        <h1 class="h7">Romantic Songs</h1>
+        <div class="cards cards-7">
+            <div class="card" id="Pee-Loon">
+                <img src="images/Pee-Loon.webp" alt="">
+                <p>Pee Loon</p>
+            </div>
+            <div class="card" id="Ye-Tune-Kya-Kiya">
+                <img src="images/Ye-Tune-Kya-Kiya.webp" alt="">
+                <p>Ye Tune Kya Kiya</p>
+            </div>
+            <div class="card" id="Dill-baadat">
+                <img src="images/Dill-baadat.webp" alt="">
+                <p>Dill Ibaadat</p>
+            </div>
+            <div class="card" id="Ishq-Risk">
+                <img src="images/Ishq-Risk.webp" alt="">
+                <p>Ishq Risk Lofi</p>
+            </div>
+            <div class="card" id="Teri-Jhuki-Nazar">
+                <img src="images/Teri-Jhuki-Nazar.webp" alt="">
+                <p>Teri Jhuki Nazar</p>
+            </div>
+            <div class="card" id="Thodi-Der">
+                <img src="images/Thodi-Der.webp" alt="">
+                <p>Thodi Der </p>
+            </div>
+            <div class="card" id="Phir-Kabhi">
+                <img src="images/Phir-Kabhi.webp" alt="">
+                <p>Phir Kabhi</p>
+            </div>
+            <div class="card" id="Humraah-Remix">
+                <img src="images/Humraah-Remix.webp" alt="">
+                <p>Humraah Remix</p>
+            </div>
+            <div class="card" id="Raabta">
+                <img src="images/Raabta.webp" alt="">
+                <p>Raabta</p>
+            </div>
+            <div class="card" id="Meherbaani">
+                <img src="images/Meherbaani.webp" alt="">
+                <p>Meherbani</p>
+            </div>
+        </div>
+        <h1 class="h8">LoFi Hindi Songs</h1>
+        <div class="cards cards-8">
+            <div class="card" id="Tum-Mile-Lofi">
+                <img src="images/Tum-Mile-Lofi.webp" alt="">
+                <p>Tum Mile (LoFi Flip)</p>
+            </div>
+            <div class="card" id="Waalian-Lofi">
+                <img src="images/Waalian-Lofi.webp" alt="">
+                <p>Waalian (LoFi)</p>
+            </div>
+            <div class="card" id="Mera-Mann-Lofi">
+                <img src="images/Mera-Mann-Lofi.webp" alt="">
+                <p>Mera Mann (LoFi)</p>
+            </div>
+            <div class="card" id="Tum-Jo-Aaye-Lofi">
+                <img src="images/Tum-Jo-Aaye-Lofi.webp" alt="">
+                <p>Tum Jo Aaye (LoFi)</p>
+            </div>
+            <div class="card" id="Ranjha-Lofi">
+                <img src="images/Ranjha-Lofi.webp" alt="">
+                <p>Ranjha (LoFi Flip)</p>
+            </div>
+            <div class="card" id="Jashne-Bahara-Lofi">
+                <img src="images/Jashne-Bahara-Lofi.webp" alt="">
+                <p>Jashne Bahara (LoFi)</p>
+            </div>
+            <div class="card" id="Dil-Ibadat-LoFi">
+                <img src="images/Dil-Ibadat-LoFi.webp" alt="">
+                <p>Dil Ibaadat (LoFi)</p>
+            </div>
+            <div class="card" id="Teri-Deewani-LoFi">
+                <img src="images/Teri-Deewani-LoFi.webp" alt="">
+                <p>Teri Deewani (LoFi)</p>
+            </div>
+            <div class="card" id="Channa-Mereya-LoFi">
+                <img src="images/Channa-Mereya-LoFi.webp" alt="">
+                <p>Channa Mereya (LoFi)</p>
+            </div>
+            <div class="card" id="Saibo-Lofi-Flip">
+                <img src="images/Saibo-Lofi-Flip.webp" alt="">
+                <p>Saibo (LoFi)</p>
+            </div>
+        </div>
+        <h1 class="h9">Workout Songs</h1>
+        <div class="cards cards-9">
+            <div class="card" id="Zinda">
+                <img src="images/Zinda.webp" alt="">
+                <p>Zinda</p>
+            </div>
+            <div class="card" id="Challa">
+                <img src="images/Challa.webp" alt="">
+                <p>Challa</p>
+            </div>
+            <div class="card" id="Jagga-Jiteya">
+                <img src="images/Jagga-Jiteya.webp" alt="">
+                <p>Jagga Jiteya</p>
+            </div>
+            <div class="card" id="Sultan">
+                <img src="images/Sultan.webp" alt="">
+                <p>Sultan Songs</p>
+            </div>
+            <div class="card" id="Brothers-Anthem">
+                <img src="images/Brothers-Anthem.webp" alt="">
+                <p>Brothers Anthem</p>
+            </div>
+            <div class="card" id="Soorma-Anthem">
+                <img src="images/Soorma-Anthem.webp" alt="">
+                <p>Soorma Anthem</p>
+            </div>
+            <div class="card" id="Get-Ready-To-Fight-Again">
+                <img src="images/Get-Ready-To-Fight-Again.webp" alt="">
+                <p>Get Ready To Fight</p>
+            </div>
+            <div class="card" id="Sultan-KGF">
+                <img src="images/Sultan-KGF.webp" alt="">
+                <p>Sultan - KGF</p>
+            </div>
+            <div class="card" id="Kar-Har-Maidaa">
+                <img src="images/Kar-Har-Maidaa.webp" alt="">
+                <p>Kar Har Maidaan</p>
+            </div>
+            <div class="card" id="Mila-Toh-Marega">
+                <img src="images/Mila-Toh-Marega.webp" alt="">
+                <p>Mila Toh Marega</p>
+            </div>
+        </div>
+        <h1 class="h10">Silent Songs</h1>
+        <div class="cards cards-10">
+            <div class="card" id="Ek-Dil-Ek-jaan">
+                <img src="images/Ek-Dil-Ek-jaan.webp" alt="">
+                <p>Ek Dil Ek Jaan</p>
+            </div>
+            <div class="card" id="Humsafar">
+                <img src="images/Humsafar.webp" alt="">
+                <p>Humsafar </p>
+            </div>
+            <div class="card" id="Mere-Sohneya">
+                <img src="images/Mere-Sohneya.webp" alt="">
+                <p>Mere Sohneya</p>
+            </div>
+            <div class="card" id="Chashni">
+                <img src="images/Chashni.webp" alt="">
+                <p>Chashni</p>
+            </div>
+            <div class="card" id="Tere-Bin-Simmba">
+                <img src="images/Tere-Bin-Simmba.webp" alt="">
+                <p>Tere Bin</p>
+            </div>
+            <div class="card" id="Tera-Hua-Loveratri">
+                <img src="images/Tera-Hua-Loveratri.webp" alt="">
+                <p>Tera Hua</p>
+            </div>
+            <div class="card" id="Tose-Naina">
+                <img src="images/Tose-Naina.webp" alt="">
+                <p>Tose Naina</p>
+            </div>
+            <div class="card" id="Makhna">
+                <img src="images/Makhna.webp" alt="">
+                <p>Makhna</p>
+            </div>
+            <div class="card" id="Naina">
+                <img src="images/Naina.webp" alt="">
+                <p>Naina</p>
+            </div>
+            <div class="card" id="Dhadak-Title-Track">
+                <img src="images/Dhadak-Title-Track.webp" alt="">
+                <p>Dhadak Title Track</p>
+            </div>
+        </div>
+    </main>
+    <!------------------------------------------------------------>
+    <!-- Main section Ends  -->
+
+</body>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!-- custom js file link  -->
+<script src="ALL JS FILES/index-script.js"></script>
+<script src="ALL JS FILES/index-script2.js"></script>
+<script src="ALL JS FILES/index-script3.js"></script>
+<script src="ALL JS FILES/index-script4.js"></script>
+<script src="ALL JS FILES/index-script5.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    let typed = new Typed(".auto-input", {
+        strings: ["MUSIC", "SONGS"],
+        typeSpeed: 180,
+        backspped: 100,
+        loop: true
+    })
+</script>
+
+</html>
