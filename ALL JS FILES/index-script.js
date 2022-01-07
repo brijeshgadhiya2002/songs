@@ -123,10 +123,34 @@ document.querySelector('#tip-tip').onclick = () => {
     player49.classList.remove('active5');
     player50.classList.remove('active5');
 
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
     pauseMusic2();
     pauseMusic3();
     pauseMusic4();
     pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
     loadSong(songs[0]);
     playMusic();
     languages.classList.remove('active');
@@ -183,10 +207,34 @@ document.querySelector('#kusu-kusu').onclick = () => {
     player49.classList.remove('active5');
     player50.classList.remove('active5');
 
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
     pauseMusic2();
     pauseMusic3();
     pauseMusic4();
     pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
     loadSong(songs[1]);
     playMusic();
 }
@@ -239,10 +287,34 @@ document.querySelector('#Jugnu').onclick = () => {
     player49.classList.remove('active5');
     player50.classList.remove('active5');
 
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
     pauseMusic2();
     pauseMusic3();
     pauseMusic4();
     pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
     loadSong(songs[2]);
     playMusic();
 }
@@ -293,10 +365,35 @@ document.querySelector('#Koi-Sehri-Babu').onclick = () => {
     player48.classList.remove('active5');
     player49.classList.remove('active5');
     player50.classList.remove('active5');
+
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
     pauseMusic2();
     pauseMusic3();
     pauseMusic4();
     pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
     loadSong(songs[3]);
     playMusic();2
 }
@@ -347,10 +444,35 @@ document.querySelector('#Duniya-Chhor-Doon').onclick = () => {
     player48.classList.remove('active5');
     player49.classList.remove('active5');
     player50.classList.remove('active5');
+
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
     pauseMusic2();
     pauseMusic3();
     pauseMusic4();
     pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
     loadSong(songs[4]);
     playMusic();
 }
@@ -403,10 +525,34 @@ document.querySelector('#Jodaa').onclick = () => {
     player49.classList.remove('active5');
     player50.classList.remove('active5');
 
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
     pauseMusic2();
     pauseMusic3();
     pauseMusic4();
     pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
 
     loadSong(songs[5]);
     playMusic();
@@ -459,10 +605,34 @@ document.querySelector('#Dilwale').onclick = () => {
     player49.classList.remove('active5');
     player50.classList.remove('active5');
 
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
     pauseMusic2();
     pauseMusic3();
     pauseMusic4();
     pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
     loadSong(songs[6]);
     playMusic();
 }
@@ -514,10 +684,34 @@ document.querySelector('#Kabhii-Tumhhe').onclick = () => {
     player49.classList.remove('active5');
     player50.classList.remove('active5');
 
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
     pauseMusic2();
     pauseMusic3();
     pauseMusic4();
     pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
     loadSong(songs[7]);
     playMusic();
 }
@@ -569,10 +763,34 @@ document.querySelector('#Dil-Galti').onclick = () => {
     player49.classList.remove('active5');
     player50.classList.remove('active5');
 
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
     pauseMusic2();
     pauseMusic3();
     pauseMusic4();
     pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
     loadSong(songs[8]);
     playMusic();
 }
@@ -624,10 +842,34 @@ document.querySelector('#Pyaar-Karte').onclick = () => {
     player49.classList.remove('active5');
     player50.classList.remove('active5');
 
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
     pauseMusic2();
     pauseMusic3();
     pauseMusic4();
     pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
     loadSong(songs[9]);
     playMusic();
 }

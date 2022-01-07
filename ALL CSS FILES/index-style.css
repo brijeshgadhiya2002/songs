@@ -1477,6 +1477,329 @@ html{
 /* Music Player 5 Ends*/
 /* ---------------------------------------------- */
 
+/* Music Player 6 starts*/
+/* ---------------------------------------------- */
+.music_container6{
+    width: 35rem;
+    height: 55rem;
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+    border-radius: 2rem;
+    box-shadow: 0 1,2rem 3rem 0.5rem rgba(0, 0, 0,0.2);
+    padding: 3rem;
+    text-align: center;
+    position: absolute;
+    top: 110%; right: -110%;
+}
+.music_container6 #cross6{
+    font-size: 31px;
+    position: absolute;
+    right: 17px;
+    top: 15px;
+    color: var(--black);
+}
+.music_container6 #cross6:hover{
+   color: var(--green);
+}
+.music_container6.active6{
+    right:2rem;
+    transition: .4s linear;
+}
+.music_container6 #title6{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    color: var(--black);
+    margin: 2rem 0 0.5rem 0;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0 ,0.3);
+}
+.music_container6 #title6:hover{
+  color: var(--green);
+}
+.music_container6 #artist6{
+    color: var(--black);
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    font-weight: 300;
+}
+.music_container6 #artist6:hover{
+    color: var(--green);
+  }
+.music_container6 .img_container6{
+    width: 25rem;
+    width: 25rem;
+    margin: auto;
+}
+.music_container6 .img_container6 #img6{
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0,0, 0.4);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.music_container6 .music_controls6{
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+.music_container6 .music_controls6 .fas{
+    color: var(--black);
+    font-size: 2rem;
+    cursor: pointer;
+    filter: drop-shadow(0 1.2rem 3rem 0.5rem rgba(0 ,0, 0, 0.4));
+}
+.music_container6 .music_controls6 .main_button6{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: var(--black);
+    color: var(--bg-color);
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.music_container6 .music_controls6 .fas:hover{
+  color: var(--green);
+}
+.music_container6 .music_controls6 .fa-play:hover{
+    background-color: var(--green);
+    color: var(--black);
+    box-shadow: 0 1rem 2rem 0.2rem rgba(0 ,0, 0, 0.4);
+}
+.music_container6 .progressbar_container6{
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+#current_time6{
+    color: var(--black);
+}
+#duration6{
+    color: var(--black);
+}
+.music_container6 .progressbar_container6 .progress_div6{
+   width: 100%;
+   height: 0.5rem;
+   box-shadow: 0 1px  2px  rgba(0 ,0, 0, 0.07), 0 2px 4px  rgba(0 ,0, 0, 0.07),
+               0 4px  8px  rgba(0 ,0, 0, 0.07),0 8px  16px rgba(0 ,0, 0, 0.07),
+               0 16PX 32PX rgba(0 ,0, 0, 0.07),0 32PX 64PX rgba(0 ,0, 0, 0.07);
+
+    border-radius: 4rem;
+    position: relative;
+    margin-top: 00.5rem;
+    transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.music_container6 .progressbar_container6 .progress_div6 .progress6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: var(--black);
+    border-radius: 4rem;
+    /* transition: width 1s linear;
+    -moz-transition: width 1s linear;
+    -o-transition: width 1s linear;
+    -webkit-transition: width 1s linear; */
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.music_container6 .progressbar_container6 .progress_duration_meter6{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.anime6{
+    animation: rotatePlayer 3s linear infinite;
+}
+@keyframes rotatePlayer{
+    from {
+         transform: rotate(0deg); 
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/* Music Player 6 Ends*/
+/* ---------------------------------------------- */
+
+/* ---------------------------------------------- */
+/* Music Player 7 Starts*/
+.music_container7{
+    width: 35rem;
+    height: 55rem;
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+    border-radius: 2rem;
+    box-shadow: 0 1,2rem 3rem 0.5rem rgba(0, 0, 0,0.2);
+    padding: 3rem;
+    text-align: center;
+    position: absolute;
+    top: 110%; right: -110%;
+}
+.music_container7 #cross7{
+    font-size: 31px;
+    position: absolute;
+    right: 17px;
+    top: 15px;
+    color: var(--black);
+}
+.music_container7 #cross7:hover{
+   color: var(--green);
+}
+.music_container7.active7{
+    right:2rem;
+    transition: .4s linear;
+}
+.music_container7 #title7{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    color: var(--black);
+    margin: 2rem 0 0.5rem 0;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0 ,0.3);
+}
+.music_container7 #title7:hover{
+  color: var(--green);
+}
+.music_container7 #artist7{
+    color: var(--black);
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    font-weight: 300;
+}
+.music_container7 #artist7:hover{
+    color: var(--green);
+  }
+.music_container7 .img_container7{
+    width: 25rem;
+    width: 25rem;
+    margin: auto;
+}
+.music_container7 .img_container7 #img7{
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0,0, 0.4);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.music_container7 .music_controls7{
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+.music_container7 .music_controls7 .fas{
+    color: var(--black);
+    font-size: 2rem;
+    cursor: pointer;
+    filter: drop-shadow(0 1.2rem 3rem 0.5rem rgba(0 ,0, 0, 0.4));
+}
+.music_container7 .music_controls7 .main_button7{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: var(--black);
+    color: var(--bg-color);
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.music_container7 .music_controls7 .fas:hover{
+  color: var(--green);
+}
+.music_container7 .music_controls7 .fa-play:hover{
+    background-color: var(--green);
+    color: var(--black);
+    box-shadow: 0 1rem 2rem 0.2rem rgba(0 ,0, 0, 0.4);
+}
+.music_container7 .progressbar_container7{
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+#current_time7{
+    color: var(--black);
+}
+#duration7{
+    color: var(--black);
+}
+.music_container7 .progressbar_container7 .progress_div7{
+   width: 100%;
+   height: 0.5rem;
+   box-shadow: 0 1px  2px  rgba(0 ,0, 0, 0.07), 0 2px 4px  rgba(0 ,0, 0, 0.07),
+               0 4px  8px  rgba(0 ,0, 0, 0.07),0 8px  16px rgba(0 ,0, 0, 0.07),
+               0 16PX 32PX rgba(0 ,0, 0, 0.07),0 32PX 64PX rgba(0 ,0, 0, 0.07);
+
+    border-radius: 4rem;
+    position: relative;
+    margin-top: 00.5rem;
+    transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.music_container7 .progressbar_container7 .progress_div7 .progress7{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: var(--black);
+    border-radius: 4rem;
+    /* transition: width 1s linear;
+    -moz-transition: width 1s linear;
+    -o-transition: width 1s linear;
+    -webkit-transition: width 1s linear; */
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.music_container7 .progressbar_container7 .progress_duration_meter7{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.anime7{
+    animation: rotatePlayer 3s linear infinite;
+}
+@keyframes rotatePlayer{
+    from {
+         transform: rotate(0deg); 
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/* Music Player 7 Ends*/
+/* ---------------------------------------------- */
 
 /* media queries  */
 
