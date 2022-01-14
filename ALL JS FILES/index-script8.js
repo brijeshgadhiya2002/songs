@@ -1462,17 +1462,17 @@ music8.addEventListener('timeupdate', (event) => {
     progress8.style.width = `${progress_time}%`;
 
     // music duration update 
-    let min_duration = Math.floor(duration / 80);
-    let sec_duration = Math.floor(duration % 80);
+    let min_duration = Math.floor(duration / 60);
+    let sec_duration = Math.floor(duration % 60);
 
     let tot_duration = `${min_duration}:${sec_duration}`;
     if (duration) {
-        total_duration.textContent = `${tot_duration}`;
+        total_duration8.textContent = `${tot_duration}`;
     }
 
     // current duration update 
-    let min_currentTime = Math.floor(currentTime / 80);
-    let sec_currentTime = Math.floor(currentTime % 80);
+    let min_currentTime = Math.floor(currentTime / 60);
+    let sec_currentTime = Math.floor(currentTime % 60);
     if (sec_currentTime < 10) {
         sec_currentTime = `0${sec_currentTime}`;
     }

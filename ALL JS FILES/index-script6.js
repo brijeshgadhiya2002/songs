@@ -1462,7 +1462,7 @@ music6.addEventListener('timeupdate', (event) => {
 
     let tot_duration = `${min_duration}:${sec_duration}`;
     if (duration) {
-        total_duration.textContent = `${tot_duration}`;
+        total_duration6.textContent = `${tot_duration}`;
     }
 
     // current duration update 
