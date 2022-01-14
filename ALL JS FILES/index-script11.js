@@ -1,7 +1,7 @@
-let player71 = document.querySelector('.music_container8');
+let player101 = document.querySelector('.music_container11');
 
-document.querySelector('#Tum-Mile-Lofi').onclick = () => {
-    player71.classList.toggle('active8');
+document.querySelector('#tum-prem-ho').onclick = () => {
+    player101.classList.toggle('active11');
 
     player.classList.remove('active');
     player2.classList.remove('active');
@@ -80,6 +80,17 @@ document.querySelector('#Tum-Mile-Lofi').onclick = () => {
     player69.classList.remove('active7');
     player70.classList.remove('active7');
 
+    player71.classList.remove('active8');
+    player72.classList.remove('active8');
+    player73.classList.remove('active8');
+    player74.classList.remove('active8');
+    player75.classList.remove('active8');
+    player76.classList.remove('active8');
+    player77.classList.remove('active8');
+    player78.classList.remove('active8');
+    player79.classList.remove('active8');
+    player80.classList.remove('active8');
+
     player81.classList.remove('active9');
     player82.classList.remove('active9');
     player83.classList.remove('active9');
@@ -102,19 +113,8 @@ document.querySelector('#Tum-Mile-Lofi').onclick = () => {
     player99.classList.remove('activeten');
     player100.classList.remove('activeten');
 
-    player101.classList.remove('active11');
-    player102.classList.remove('active11');
-    player103.classList.remove('active11');
-    player104.classList.remove('active11');
-    player105.classList.remove('active11');
-    player106.classList.remove('active11');
-    player107.classList.remove('active11');
-    player108.classList.remove('active11');
-    player109.classList.remove('active11');
-    player110.classList.remove('active11');
-
-    loadSong8(songs8[0]);
-    playMusic8();
+    loadSong11(songs11[0]);
+    playMusic11();
     pauseMusic();
     pauseMusic2();
     pauseMusic3();
@@ -122,1348 +122,1341 @@ document.querySelector('#Tum-Mile-Lofi').onclick = () => {
     pauseMusic5();
     pauseMusic6();
     pauseMusic7();
-    pauseMusic9();
-    pauseMusicten();
-    pauseMusic11();
-
-    languages.classList.remove('active');
-    searchForm.classList.remove('active');
-    loginForm.classList.remove('active');
-    navbar.classList.remove('active');
-}
-
-let player72 = document.querySelector('.music_container8');
-
-document.querySelector('#Waalian-Lofi').onclick = () => {
-    player72.classList.toggle('active8');
-
-    player.classList.remove('active');
-    player2.classList.remove('active');
-    player3.classList.remove('active');
-    player4.classList.remove('active');
-    player5.classList.remove('active');
-    player6.classList.remove('active');
-    player7.classList.remove('active');
-    player8.classList.remove('active');
-    player9.classList.remove('active');
-    player10.classList.remove('active');
-
-    player11.classList.remove('active2');
-    player12.classList.remove('active2');
-    player13.classList.remove('active2');
-    player14.classList.remove('active2');
-    player15.classList.remove('active2');
-    player16.classList.remove('active2');
-    player17.classList.remove('active2');
-    player18.classList.remove('active2');
-    player19.classList.remove('active2');
-    player20.classList.remove('active2');
-
-    player21.classList.remove('active3');
-    player22.classList.remove('active3');
-    player23.classList.remove('active3');
-    player24.classList.remove('active3');
-    player25.classList.remove('active3');
-    player26.classList.remove('active3');
-    player27.classList.remove('active3');
-    player28.classList.remove('active3');
-    player29.classList.remove('active3');
-    player30.classList.remove('active3');
-
-    player31.classList.remove('active4');
-    player32.classList.remove('active4');
-    player33.classList.remove('active4');
-    player34.classList.remove('active4');
-    player35.classList.remove('active4');
-    player36.classList.remove('active4');
-    player37.classList.remove('active4');
-    player38.classList.remove('active4');
-    player39.classList.remove('active4');
-    player40.classList.remove('active4');
-
-    player41.classList.remove('active5');
-    player42.classList.remove('active5');
-    player43.classList.remove('active5');
-    player44.classList.remove('active5');
-    player45.classList.remove('active5');
-    player46.classList.remove('active5');
-    player47.classList.remove('active5');
-    player48.classList.remove('active5');
-    player49.classList.remove('active5');
-    player50.classList.remove('active5');
-
-    player51.classList.remove('active6');
-    player52.classList.remove('active6');
-    player53.classList.remove('active6');
-    player54.classList.remove('active6');
-    player55.classList.remove('active6');
-    player56.classList.remove('active6');
-    player57.classList.remove('active6');
-    player58.classList.remove('active6');
-    player59.classList.remove('active6');
-    player60.classList.remove('active6');
-
-    player61.classList.remove('active7');
-    player62.classList.remove('active7');
-    player63.classList.remove('active7');
-    player64.classList.remove('active7');
-    player65.classList.remove('active7');
-    player66.classList.remove('active7');
-    player67.classList.remove('active7');
-    player68.classList.remove('active7');
-    player69.classList.remove('active7');
-    player70.classList.remove('active7');
-
-    player81.classList.remove('active9');
-    player82.classList.remove('active9');
-    player83.classList.remove('active9');
-    player84.classList.remove('active9');
-    player85.classList.remove('active9');
-    player86.classList.remove('active9');
-    player87.classList.remove('active9');
-    player88.classList.remove('active9');
-    player89.classList.remove('active9');
-    player90.classList.remove('active9');
-
-    player91.classList.remove('activeten');
-    player92.classList.remove('activeten');
-    player93.classList.remove('activeten');
-    player94.classList.remove('activeten');
-    player95.classList.remove('activeten');
-    player96.classList.remove('activeten');
-    player97.classList.remove('activeten');
-    player98.classList.remove('activeten');
-    player99.classList.remove('activeten');
-    player100.classList.remove('activeten');
-
-    player101.classList.remove('active11');
-    player102.classList.remove('active11');
-    player103.classList.remove('active11');
-    player104.classList.remove('active11');
-    player105.classList.remove('active11');
-    player106.classList.remove('active11');
-    player107.classList.remove('active11');
-    player108.classList.remove('active11');
-    player109.classList.remove('active11');
-    player110.classList.remove('active11');
-
-    loadSong8(songs8[1]);
-    playMusic8();
-    pauseMusic();
-    pauseMusic2();
-    pauseMusic3();
-    pauseMusic4();
-    pauseMusic5();
-    pauseMusic6();
-    pauseMusic7();
-    pauseMusic9();
-    pauseMusicten();
-    pauseMusic11();
-
-    languages.classList.remove('active');
-    searchForm.classList.remove('active');
-    loginForm.classList.remove('active');
-    navbar.classList.remove('active');
-}
-
-let player73 = document.querySelector('.music_container8');
-
-document.querySelector('#Mera-Mann-Lofi').onclick = () => {
-    player73.classList.toggle('active8');
-
-    player.classList.remove('active');
-    player2.classList.remove('active');
-    player3.classList.remove('active');
-    player4.classList.remove('active');
-    player5.classList.remove('active');
-    player6.classList.remove('active');
-    player7.classList.remove('active');
-    player8.classList.remove('active');
-    player9.classList.remove('active');
-    player10.classList.remove('active');
-
-    player11.classList.remove('active2');
-    player12.classList.remove('active2');
-    player13.classList.remove('active2');
-    player14.classList.remove('active2');
-    player15.classList.remove('active2');
-    player16.classList.remove('active2');
-    player17.classList.remove('active2');
-    player18.classList.remove('active2');
-    player19.classList.remove('active2');
-    player20.classList.remove('active2');
-
-    player21.classList.remove('active3');
-    player22.classList.remove('active3');
-    player23.classList.remove('active3');
-    player24.classList.remove('active3');
-    player25.classList.remove('active3');
-    player26.classList.remove('active3');
-    player27.classList.remove('active3');
-    player28.classList.remove('active3');
-    player29.classList.remove('active3');
-    player30.classList.remove('active3');
-
-    player31.classList.remove('active4');
-    player32.classList.remove('active4');
-    player33.classList.remove('active4');
-    player34.classList.remove('active4');
-    player35.classList.remove('active4');
-    player36.classList.remove('active4');
-    player37.classList.remove('active4');
-    player38.classList.remove('active4');
-    player39.classList.remove('active4');
-    player40.classList.remove('active4');
-
-    player41.classList.remove('active5');
-    player42.classList.remove('active5');
-    player43.classList.remove('active5');
-    player44.classList.remove('active5');
-    player45.classList.remove('active5');
-    player46.classList.remove('active5');
-    player47.classList.remove('active5');
-    player48.classList.remove('active5');
-    player49.classList.remove('active5');
-    player50.classList.remove('active5');
-
-    player51.classList.remove('active6');
-    player52.classList.remove('active6');
-    player53.classList.remove('active6');
-    player54.classList.remove('active6');
-    player55.classList.remove('active6');
-    player56.classList.remove('active6');
-    player57.classList.remove('active6');
-    player58.classList.remove('active6');
-    player59.classList.remove('active6');
-    player60.classList.remove('active6');
-
-    player61.classList.remove('active7');
-    player62.classList.remove('active7');
-    player63.classList.remove('active7');
-    player64.classList.remove('active7');
-    player65.classList.remove('active7');
-    player66.classList.remove('active7');
-    player67.classList.remove('active7');
-    player68.classList.remove('active7');
-    player69.classList.remove('active7');
-    player70.classList.remove('active7');
-
-    player81.classList.remove('active9');
-    player82.classList.remove('active9');
-    player83.classList.remove('active9');
-    player84.classList.remove('active9');
-    player85.classList.remove('active9');
-    player86.classList.remove('active9');
-    player87.classList.remove('active9');
-    player88.classList.remove('active9');
-    player89.classList.remove('active9');
-    player90.classList.remove('active9');
-
-    player91.classList.remove('activeten');
-    player92.classList.remove('activeten');
-    player93.classList.remove('activeten');
-    player94.classList.remove('activeten');
-    player95.classList.remove('activeten');
-    player96.classList.remove('activeten');
-    player97.classList.remove('activeten');
-    player98.classList.remove('activeten');
-    player99.classList.remove('activeten');
-    player100.classList.remove('activeten');
-
-    player101.classList.remove('active11');
-    player102.classList.remove('active11');
-    player103.classList.remove('active11');
-    player104.classList.remove('active11');
-    player105.classList.remove('active11');
-    player106.classList.remove('active11');
-    player107.classList.remove('active11');
-    player108.classList.remove('active11');
-    player109.classList.remove('active11');
-    player110.classList.remove('active11');
-
-    loadSong8(songs8[2]);
-    playMusic8();
-    pauseMusic();
-    pauseMusic2();
-    pauseMusic3();
-    pauseMusic4();
-    pauseMusic5();
-    pauseMusic6();
-    pauseMusic7();
-    pauseMusic9();
-    pauseMusicten();
-    pauseMusic11();
-
-    languages.classList.remove('active');
-    searchForm.classList.remove('active');
-    loginForm.classList.remove('active');
-    navbar.classList.remove('active');
-}
-
-let player74 = document.querySelector('.music_container8');
-
-document.querySelector('#Tum-Jo-Aaye-Lofi').onclick = () => {
-    player74.classList.toggle('active8');
-
-    player.classList.remove('active');
-    player2.classList.remove('active');
-    player3.classList.remove('active');
-    player4.classList.remove('active');
-    player5.classList.remove('active');
-    player6.classList.remove('active');
-    player7.classList.remove('active');
-    player8.classList.remove('active');
-    player9.classList.remove('active');
-    player10.classList.remove('active');
-
-    player11.classList.remove('active2');
-    player12.classList.remove('active2');
-    player13.classList.remove('active2');
-    player14.classList.remove('active2');
-    player15.classList.remove('active2');
-    player16.classList.remove('active2');
-    player17.classList.remove('active2');
-    player18.classList.remove('active2');
-    player19.classList.remove('active2');
-    player20.classList.remove('active2');
-
-    player21.classList.remove('active3');
-    player22.classList.remove('active3');
-    player23.classList.remove('active3');
-    player24.classList.remove('active3');
-    player25.classList.remove('active3');
-    player26.classList.remove('active3');
-    player27.classList.remove('active3');
-    player28.classList.remove('active3');
-    player29.classList.remove('active3');
-    player30.classList.remove('active3');
-
-    player31.classList.remove('active4');
-    player32.classList.remove('active4');
-    player33.classList.remove('active4');
-    player34.classList.remove('active4');
-    player35.classList.remove('active4');
-    player36.classList.remove('active4');
-    player37.classList.remove('active4');
-    player38.classList.remove('active4');
-    player39.classList.remove('active4');
-    player40.classList.remove('active4');
-
-    player41.classList.remove('active5');
-    player42.classList.remove('active5');
-    player43.classList.remove('active5');
-    player44.classList.remove('active5');
-    player45.classList.remove('active5');
-    player46.classList.remove('active5');
-    player47.classList.remove('active5');
-    player48.classList.remove('active5');
-    player49.classList.remove('active5');
-    player50.classList.remove('active5');
-
-    player51.classList.remove('active6');
-    player52.classList.remove('active6');
-    player53.classList.remove('active6');
-    player54.classList.remove('active6');
-    player55.classList.remove('active6');
-    player56.classList.remove('active6');
-    player57.classList.remove('active6');
-    player58.classList.remove('active6');
-    player59.classList.remove('active6');
-    player60.classList.remove('active6');
-
-    player61.classList.remove('active7');
-    player62.classList.remove('active7');
-    player63.classList.remove('active7');
-    player64.classList.remove('active7');
-    player65.classList.remove('active7');
-    player66.classList.remove('active7');
-    player67.classList.remove('active7');
-    player68.classList.remove('active7');
-    player69.classList.remove('active7');
-    player70.classList.remove('active7');
-
-    player81.classList.remove('active9');
-    player82.classList.remove('active9');
-    player83.classList.remove('active9');
-    player84.classList.remove('active9');
-    player85.classList.remove('active9');
-    player86.classList.remove('active9');
-    player87.classList.remove('active9');
-    player88.classList.remove('active9');
-    player89.classList.remove('active9');
-    player90.classList.remove('active9');
-
-    player91.classList.remove('activeten');
-    player92.classList.remove('activeten');
-    player93.classList.remove('activeten');
-    player94.classList.remove('activeten');
-    player95.classList.remove('activeten');
-    player96.classList.remove('activeten');
-    player97.classList.remove('activeten');
-    player98.classList.remove('activeten');
-    player99.classList.remove('activeten');
-    player100.classList.remove('activeten');
-
-    player101.classList.remove('active11');
-    player102.classList.remove('active11');
-    player103.classList.remove('active11');
-    player104.classList.remove('active11');
-    player105.classList.remove('active11');
-    player106.classList.remove('active11');
-    player107.classList.remove('active11');
-    player108.classList.remove('active11');
-    player109.classList.remove('active11');
-    player110.classList.remove('active11');
-
-    loadSong8(songs8[3]);
-    playMusic8();
-    pauseMusic();
-    pauseMusic2();
-    pauseMusic3();
-    pauseMusic4();
-    pauseMusic5();
-    pauseMusic6();
-    pauseMusic7();
-    pauseMusic9();
-    pauseMusicten();
-    pauseMusic11();
-
-    languages.classList.remove('active');
-    searchForm.classList.remove('active');
-    loginForm.classList.remove('active');
-    navbar.classList.remove('active');
-}
-
-let player75 = document.querySelector('.music_container8');
-
-document.querySelector('#Ranjha-Lofi').onclick = () => {
-    player75.classList.toggle('active8');
-
-    player.classList.remove('active');
-    player2.classList.remove('active');
-    player3.classList.remove('active');
-    player4.classList.remove('active');
-    player5.classList.remove('active');
-    player6.classList.remove('active');
-    player7.classList.remove('active');
-    player8.classList.remove('active');
-    player9.classList.remove('active');
-    player10.classList.remove('active');
-
-    player11.classList.remove('active2');
-    player12.classList.remove('active2');
-    player13.classList.remove('active2');
-    player14.classList.remove('active2');
-    player15.classList.remove('active2');
-    player16.classList.remove('active2');
-    player17.classList.remove('active2');
-    player18.classList.remove('active2');
-    player19.classList.remove('active2');
-    player20.classList.remove('active2');
-
-    player21.classList.remove('active3');
-    player22.classList.remove('active3');
-    player23.classList.remove('active3');
-    player24.classList.remove('active3');
-    player25.classList.remove('active3');
-    player26.classList.remove('active3');
-    player27.classList.remove('active3');
-    player28.classList.remove('active3');
-    player29.classList.remove('active3');
-    player30.classList.remove('active3');
-
-    player31.classList.remove('active4');
-    player32.classList.remove('active4');
-    player33.classList.remove('active4');
-    player34.classList.remove('active4');
-    player35.classList.remove('active4');
-    player36.classList.remove('active4');
-    player37.classList.remove('active4');
-    player38.classList.remove('active4');
-    player39.classList.remove('active4');
-    player40.classList.remove('active4');
-
-    player41.classList.remove('active5');
-    player42.classList.remove('active5');
-    player43.classList.remove('active5');
-    player44.classList.remove('active5');
-    player45.classList.remove('active5');
-    player46.classList.remove('active5');
-    player47.classList.remove('active5');
-    player48.classList.remove('active5');
-    player49.classList.remove('active5');
-    player50.classList.remove('active5');
-
-    player51.classList.remove('active6');
-    player52.classList.remove('active6');
-    player53.classList.remove('active6');
-    player54.classList.remove('active6');
-    player55.classList.remove('active6');
-    player56.classList.remove('active6');
-    player57.classList.remove('active6');
-    player58.classList.remove('active6');
-    player59.classList.remove('active6');
-    player60.classList.remove('active6');
-
-    player61.classList.remove('active7');
-    player62.classList.remove('active7');
-    player63.classList.remove('active7');
-    player64.classList.remove('active7');
-    player65.classList.remove('active7');
-    player66.classList.remove('active7');
-    player67.classList.remove('active7');
-    player68.classList.remove('active7');
-    player69.classList.remove('active7');
-    player70.classList.remove('active7');
-
-    player81.classList.remove('active9');
-    player82.classList.remove('active9');
-    player83.classList.remove('active9');
-    player84.classList.remove('active9');
-    player85.classList.remove('active9');
-    player86.classList.remove('active9');
-    player87.classList.remove('active9');
-    player88.classList.remove('active9');
-    player89.classList.remove('active9');
-    player90.classList.remove('active9');
-
-    player91.classList.remove('activeten');
-    player92.classList.remove('activeten');
-    player93.classList.remove('activeten');
-    player94.classList.remove('activeten');
-    player95.classList.remove('activeten');
-    player96.classList.remove('activeten');
-    player97.classList.remove('activeten');
-    player98.classList.remove('activeten');
-    player99.classList.remove('activeten');
-    player100.classList.remove('activeten');
-
-    player101.classList.remove('active11');
-    player102.classList.remove('active11');
-    player103.classList.remove('active11');
-    player104.classList.remove('active11');
-    player105.classList.remove('active11');
-    player106.classList.remove('active11');
-    player107.classList.remove('active11');
-    player108.classList.remove('active11');
-    player109.classList.remove('active11');
-    player110.classList.remove('active11');
-
-    loadSong8(songs8[4]);
-    playMusic8();
-    pauseMusic();
-    pauseMusic2();
-    pauseMusic3();
-    pauseMusic4();
-    pauseMusic5();
-    pauseMusic6();
-    pauseMusic7();
-    pauseMusic9();
-    pauseMusicten();
-    pauseMusic11();
-
-    languages.classList.remove('active');
-    searchForm.classList.remove('active');
-    loginForm.classList.remove('active');
-    navbar.classList.remove('active');
-}
-
-let player76 = document.querySelector('.music_container8');
-
-document.querySelector('#Jashne-Bahara-Lofi').onclick = () => {
-    player76.classList.toggle('active8');
-
-    player.classList.remove('active');
-    player2.classList.remove('active');
-    player3.classList.remove('active');
-    player4.classList.remove('active');
-    player5.classList.remove('active');
-    player6.classList.remove('active');
-    player7.classList.remove('active');
-    player8.classList.remove('active');
-    player9.classList.remove('active');
-    player10.classList.remove('active');
-
-    player11.classList.remove('active2');
-    player12.classList.remove('active2');
-    player13.classList.remove('active2');
-    player14.classList.remove('active2');
-    player15.classList.remove('active2');
-    player16.classList.remove('active2');
-    player17.classList.remove('active2');
-    player18.classList.remove('active2');
-    player19.classList.remove('active2');
-    player20.classList.remove('active2');
-
-    player21.classList.remove('active3');
-    player22.classList.remove('active3');
-    player23.classList.remove('active3');
-    player24.classList.remove('active3');
-    player25.classList.remove('active3');
-    player26.classList.remove('active3');
-    player27.classList.remove('active3');
-    player28.classList.remove('active3');
-    player29.classList.remove('active3');
-    player30.classList.remove('active3');
-
-    player31.classList.remove('active4');
-    player32.classList.remove('active4');
-    player33.classList.remove('active4');
-    player34.classList.remove('active4');
-    player35.classList.remove('active4');
-    player36.classList.remove('active4');
-    player37.classList.remove('active4');
-    player38.classList.remove('active4');
-    player39.classList.remove('active4');
-    player40.classList.remove('active4');
-
-    player41.classList.remove('active5');
-    player42.classList.remove('active5');
-    player43.classList.remove('active5');
-    player44.classList.remove('active5');
-    player45.classList.remove('active5');
-    player46.classList.remove('active5');
-    player47.classList.remove('active5');
-    player48.classList.remove('active5');
-    player49.classList.remove('active5');
-    player50.classList.remove('active5');
-
-    player51.classList.remove('active6');
-    player52.classList.remove('active6');
-    player53.classList.remove('active6');
-    player54.classList.remove('active6');
-    player55.classList.remove('active6');
-    player56.classList.remove('active6');
-    player57.classList.remove('active6');
-    player58.classList.remove('active6');
-    player59.classList.remove('active6');
-    player60.classList.remove('active6');
-
-    player61.classList.remove('active7');
-    player62.classList.remove('active7');
-    player63.classList.remove('active7');
-    player64.classList.remove('active7');
-    player65.classList.remove('active7');
-    player66.classList.remove('active7');
-    player67.classList.remove('active7');
-    player68.classList.remove('active7');
-    player69.classList.remove('active7');
-    player70.classList.remove('active7');
-
-    player81.classList.remove('active9');
-    player82.classList.remove('active9');
-    player83.classList.remove('active9');
-    player84.classList.remove('active9');
-    player85.classList.remove('active9');
-    player86.classList.remove('active9');
-    player87.classList.remove('active9');
-    player88.classList.remove('active9');
-    player89.classList.remove('active9');
-    player90.classList.remove('active9');
-
-    player91.classList.remove('activeten');
-    player92.classList.remove('activeten');
-    player93.classList.remove('activeten');
-    player94.classList.remove('activeten');
-    player95.classList.remove('activeten');
-    player96.classList.remove('activeten');
-    player97.classList.remove('activeten');
-    player98.classList.remove('activeten');
-    player99.classList.remove('activeten');
-    player100.classList.remove('activeten');
-
-    player101.classList.remove('active11');
-    player102.classList.remove('active11');
-    player103.classList.remove('active11');
-    player104.classList.remove('active11');
-    player105.classList.remove('active11');
-    player106.classList.remove('active11');
-    player107.classList.remove('active11');
-    player108.classList.remove('active11');
-    player109.classList.remove('active11');
-    player110.classList.remove('active11');
-
-    loadSong8(songs8[5]);
-    playMusic8();
-    pauseMusic();
-    pauseMusic2();
-    pauseMusic3();
-    pauseMusic4();
-    pauseMusic5();
-    pauseMusic6();
-    pauseMusic9();
-    pauseMusicten();
-    pauseMusic11();
-
-    languages.classList.remove('active');
-    searchForm.classList.remove('active');
-    loginForm.classList.remove('active');
-    navbar.classList.remove('active');
-}
-
-let player77 = document.querySelector('.music_container8');
-
-document.querySelector('#Dil-Ibadat-LoFi').onclick = () => {
-    player77.classList.toggle('active8');
-
-    player.classList.remove('active');
-    player2.classList.remove('active');
-    player3.classList.remove('active');
-    player4.classList.remove('active');
-    player5.classList.remove('active');
-    player6.classList.remove('active');
-    player7.classList.remove('active');
-    player8.classList.remove('active');
-    player9.classList.remove('active');
-    player10.classList.remove('active');
-
-    player11.classList.remove('active2');
-    player12.classList.remove('active2');
-    player13.classList.remove('active2');
-    player14.classList.remove('active2');
-    player15.classList.remove('active2');
-    player16.classList.remove('active2');
-    player17.classList.remove('active2');
-    player18.classList.remove('active2');
-    player19.classList.remove('active2');
-    player20.classList.remove('active2');
-
-    player21.classList.remove('active3');
-    player22.classList.remove('active3');
-    player23.classList.remove('active3');
-    player24.classList.remove('active3');
-    player25.classList.remove('active3');
-    player26.classList.remove('active3');
-    player27.classList.remove('active3');
-    player28.classList.remove('active3');
-    player29.classList.remove('active3');
-    player30.classList.remove('active3');
-
-    player31.classList.remove('active4');
-    player32.classList.remove('active4');
-    player33.classList.remove('active4');
-    player34.classList.remove('active4');
-    player35.classList.remove('active4');
-    player36.classList.remove('active4');
-    player37.classList.remove('active4');
-    player38.classList.remove('active4');
-    player39.classList.remove('active4');
-    player40.classList.remove('active4');
-
-    player41.classList.remove('active5');
-    player42.classList.remove('active5');
-    player43.classList.remove('active5');
-    player44.classList.remove('active5');
-    player45.classList.remove('active5');
-    player46.classList.remove('active5');
-    player47.classList.remove('active5');
-    player48.classList.remove('active5');
-    player49.classList.remove('active5');
-    player50.classList.remove('active5');
-
-    player51.classList.remove('active6');
-    player52.classList.remove('active6');
-    player53.classList.remove('active6');
-    player54.classList.remove('active6');
-    player55.classList.remove('active6');
-    player56.classList.remove('active6');
-    player57.classList.remove('active6');
-    player58.classList.remove('active6');
-    player59.classList.remove('active6');
-    player60.classList.remove('active6');
-
-    player61.classList.remove('active7');
-    player62.classList.remove('active7');
-    player63.classList.remove('active7');
-    player64.classList.remove('active7');
-    player65.classList.remove('active7');
-    player66.classList.remove('active7');
-    player67.classList.remove('active7');
-    player68.classList.remove('active7');
-    player69.classList.remove('active7');
-    player70.classList.remove('active7');
-
-    player81.classList.remove('active9');
-    player82.classList.remove('active9');
-    player83.classList.remove('active9');
-    player84.classList.remove('active9');
-    player85.classList.remove('active9');
-    player86.classList.remove('active9');
-    player87.classList.remove('active9');
-    player88.classList.remove('active9');
-    player89.classList.remove('active9');
-    player90.classList.remove('active9');
-
-    player91.classList.remove('activeten');
-    player92.classList.remove('activeten');
-    player93.classList.remove('activeten');
-    player94.classList.remove('activeten');
-    player95.classList.remove('activeten');
-    player96.classList.remove('activeten');
-    player97.classList.remove('activeten');
-    player98.classList.remove('activeten');
-    player99.classList.remove('activeten');
-    player100.classList.remove('activeten');
-
-    player101.classList.remove('active11');
-    player102.classList.remove('active11');
-    player103.classList.remove('active11');
-    player104.classList.remove('active11');
-    player105.classList.remove('active11');
-    player106.classList.remove('active11');
-    player107.classList.remove('active11');
-    player108.classList.remove('active11');
-    player109.classList.remove('active11');
-    player110.classList.remove('active11');
-
-    loadSong8(songs8[6]);
-    playMusic8();
-    pauseMusic();
-    pauseMusic2();
-    pauseMusic3();
-    pauseMusic4();
-    pauseMusic5();
-    pauseMusic6();
-    pauseMusic7();
-    pauseMusic9();
-    pauseMusicten();
-    pauseMusic11();
-
-    languages.classList.remove('active');
-    searchForm.classList.remove('active');
-    loginForm.classList.remove('active');
-    navbar.classList.remove('active');
-}
-
-let player78 = document.querySelector('.music_container8');
-
-document.querySelector('#Teri-Deewani-LoFi').onclick = () => {
-    player78.classList.toggle('active8');
-
-    player.classList.remove('active');
-    player2.classList.remove('active');
-    player3.classList.remove('active');
-    player4.classList.remove('active');
-    player5.classList.remove('active');
-    player6.classList.remove('active');
-    player7.classList.remove('active');
-    player8.classList.remove('active');
-    player9.classList.remove('active');
-    player10.classList.remove('active');
-
-    player11.classList.remove('active2');
-    player12.classList.remove('active2');
-    player13.classList.remove('active2');
-    player14.classList.remove('active2');
-    player15.classList.remove('active2');
-    player16.classList.remove('active2');
-    player17.classList.remove('active2');
-    player18.classList.remove('active2');
-    player19.classList.remove('active2');
-    player20.classList.remove('active2');
-
-    player21.classList.remove('active3');
-    player22.classList.remove('active3');
-    player23.classList.remove('active3');
-    player24.classList.remove('active3');
-    player25.classList.remove('active3');
-    player26.classList.remove('active3');
-    player27.classList.remove('active3');
-    player28.classList.remove('active3');
-    player29.classList.remove('active3');
-    player30.classList.remove('active3');
-
-    player31.classList.remove('active4');
-    player32.classList.remove('active4');
-    player33.classList.remove('active4');
-    player34.classList.remove('active4');
-    player35.classList.remove('active4');
-    player36.classList.remove('active4');
-    player37.classList.remove('active4');
-    player38.classList.remove('active4');
-    player39.classList.remove('active4');
-    player40.classList.remove('active4');
-
-    player41.classList.remove('active5');
-    player42.classList.remove('active5');
-    player43.classList.remove('active5');
-    player44.classList.remove('active5');
-    player45.classList.remove('active5');
-    player46.classList.remove('active5');
-    player47.classList.remove('active5');
-    player48.classList.remove('active5');
-    player49.classList.remove('active5');
-    player50.classList.remove('active5');
-
-    player51.classList.remove('active6');
-    player52.classList.remove('active6');
-    player53.classList.remove('active6');
-    player54.classList.remove('active6');
-    player55.classList.remove('active6');
-    player56.classList.remove('active6');
-    player57.classList.remove('active6');
-    player58.classList.remove('active6');
-    player59.classList.remove('active6');
-    player60.classList.remove('active6');
-
-    player61.classList.remove('active7');
-    player62.classList.remove('active7');
-    player63.classList.remove('active7');
-    player64.classList.remove('active7');
-    player65.classList.remove('active7');
-    player66.classList.remove('active7');
-    player67.classList.remove('active7');
-    player68.classList.remove('active7');
-    player69.classList.remove('active7');
-    player70.classList.remove('active7');
-
-    player81.classList.remove('active9');
-    player82.classList.remove('active9');
-    player83.classList.remove('active9');
-    player84.classList.remove('active9');
-    player85.classList.remove('active9');
-    player86.classList.remove('active9');
-    player87.classList.remove('active9');
-    player88.classList.remove('active9');
-    player89.classList.remove('active9');
-    player90.classList.remove('active9');
-
-    player91.classList.remove('activeten');
-    player92.classList.remove('activeten');
-    player93.classList.remove('activeten');
-    player94.classList.remove('activeten');
-    player95.classList.remove('activeten');
-    player96.classList.remove('activeten');
-    player97.classList.remove('activeten');
-    player98.classList.remove('activeten');
-    player99.classList.remove('activeten');
-    player100.classList.remove('activeten');
-
-    player101.classList.remove('active11');
-    player102.classList.remove('active11');
-    player103.classList.remove('active11');
-    player104.classList.remove('active11');
-    player105.classList.remove('active11');
-    player106.classList.remove('active11');
-    player107.classList.remove('active11');
-    player108.classList.remove('active11');
-    player109.classList.remove('active11');
-    player110.classList.remove('active11');
-
-    loadSong8(songs8[7]);
-    playMusic8();
-    pauseMusic();
-    pauseMusic2();
-    pauseMusic3();
-    pauseMusic4();
-    pauseMusic5();
-    pauseMusic6();
-    pauseMusic7();
-    pauseMusic9();
-    pauseMusicten();
-    pauseMusic11();
-
-    languages.classList.remove('active');
-    searchForm.classList.remove('active');
-    loginForm.classList.remove('active');
-    navbar.classList.remove('active');
-}
-let player79 = document.querySelector('.music_container8');
-
-document.querySelector('#Channa-Mereya-LoFi').onclick = () => {
-    player79.classList.toggle('active8');
-
-    player.classList.remove('active');
-    player2.classList.remove('active');
-    player3.classList.remove('active');
-    player4.classList.remove('active');
-    player5.classList.remove('active');
-    player6.classList.remove('active');
-    player7.classList.remove('active');
-    player8.classList.remove('active');
-    player9.classList.remove('active');
-    player10.classList.remove('active');
-
-    player11.classList.remove('active2');
-    player12.classList.remove('active2');
-    player13.classList.remove('active2');
-    player14.classList.remove('active2');
-    player15.classList.remove('active2');
-    player16.classList.remove('active2');
-    player17.classList.remove('active2');
-    player18.classList.remove('active2');
-    player19.classList.remove('active2');
-    player20.classList.remove('active2');
-
-    player21.classList.remove('active3');
-    player22.classList.remove('active3');
-    player23.classList.remove('active3');
-    player24.classList.remove('active3');
-    player25.classList.remove('active3');
-    player26.classList.remove('active3');
-    player27.classList.remove('active3');
-    player28.classList.remove('active3');
-    player29.classList.remove('active3');
-    player30.classList.remove('active3');
-
-    player31.classList.remove('active4');
-    player32.classList.remove('active4');
-    player33.classList.remove('active4');
-    player34.classList.remove('active4');
-    player35.classList.remove('active4');
-    player36.classList.remove('active4');
-    player37.classList.remove('active4');
-    player38.classList.remove('active4');
-    player39.classList.remove('active4');
-    player40.classList.remove('active4');
-
-    player41.classList.remove('active5');
-    player42.classList.remove('active5');
-    player43.classList.remove('active5');
-    player44.classList.remove('active5');
-    player45.classList.remove('active5');
-    player46.classList.remove('active5');
-    player47.classList.remove('active5');
-    player48.classList.remove('active5');
-    player49.classList.remove('active5');
-    player50.classList.remove('active5');
-
-    player51.classList.remove('active6');
-    player52.classList.remove('active6');
-    player53.classList.remove('active6');
-    player54.classList.remove('active6');
-    player55.classList.remove('active6');
-    player56.classList.remove('active6');
-    player57.classList.remove('active6');
-    player58.classList.remove('active6');
-    player59.classList.remove('active6');
-    player60.classList.remove('active6');
-
-    player61.classList.remove('active7');
-    player62.classList.remove('active7');
-    player63.classList.remove('active7');
-    player64.classList.remove('active7');
-    player65.classList.remove('active7');
-    player66.classList.remove('active7');
-    player67.classList.remove('active7');
-    player68.classList.remove('active7');
-    player69.classList.remove('active7');
-    player70.classList.remove('active7');
-
-    player81.classList.remove('active9');
-    player82.classList.remove('active9');
-    player83.classList.remove('active9');
-    player84.classList.remove('active9');
-    player85.classList.remove('active9');
-    player86.classList.remove('active9');
-    player87.classList.remove('active9');
-    player88.classList.remove('active9');
-    player89.classList.remove('active9');
-    player90.classList.remove('active9');
-
-    player91.classList.remove('activeten');
-    player92.classList.remove('activeten');
-    player93.classList.remove('activeten');
-    player94.classList.remove('activeten');
-    player95.classList.remove('activeten');
-    player96.classList.remove('activeten');
-    player97.classList.remove('activeten');
-    player98.classList.remove('activeten');
-    player99.classList.remove('activeten');
-    player100.classList.remove('activeten');
-
-    player101.classList.remove('active11');
-    player102.classList.remove('active11');
-    player103.classList.remove('active11');
-    player104.classList.remove('active11');
-    player105.classList.remove('active11');
-    player106.classList.remove('active11');
-    player107.classList.remove('active11');
-    player108.classList.remove('active11');
-    player109.classList.remove('active11');
-    player110.classList.remove('active11');
-
-    loadSong8(songs8[8]);
-    playMusic8();
-    pauseMusic();
-    pauseMusic2();
-    pauseMusic3();
-    pauseMusic4();
-    pauseMusic5();
-    pauseMusic6();
-    pauseMusic7();
-    pauseMusic9();
-    pauseMusicten();
-    pauseMusic11();
-
-    languages.classList.remove('active');
-    searchForm.classList.remove('active');
-    loginForm.classList.remove('active');
-    navbar.classList.remove('active');
-}
-
-let player80 = document.querySelector('.music_container8');
-
-document.querySelector('#Saibo-Lofi-Flip').onclick = () => {
-    player80.classList.toggle('active8');
-
-    player.classList.remove('active');
-    player2.classList.remove('active');
-    player3.classList.remove('active');
-    player4.classList.remove('active');
-    player5.classList.remove('active');
-    player6.classList.remove('active');
-    player7.classList.remove('active');
-    player8.classList.remove('active');
-    player9.classList.remove('active');
-    player10.classList.remove('active');
-
-    player11.classList.remove('active2');
-    player12.classList.remove('active2');
-    player13.classList.remove('active2');
-    player14.classList.remove('active2');
-    player15.classList.remove('active2');
-    player16.classList.remove('active2');
-    player17.classList.remove('active2');
-    player18.classList.remove('active2');
-    player19.classList.remove('active2');
-    player20.classList.remove('active2');
-
-    player21.classList.remove('active3');
-    player22.classList.remove('active3');
-    player23.classList.remove('active3');
-    player24.classList.remove('active3');
-    player25.classList.remove('active3');
-    player26.classList.remove('active3');
-    player27.classList.remove('active3');
-    player28.classList.remove('active3');
-    player29.classList.remove('active3');
-    player30.classList.remove('active3');
-
-    player31.classList.remove('active4');
-    player32.classList.remove('active4');
-    player33.classList.remove('active4');
-    player34.classList.remove('active4');
-    player35.classList.remove('active4');
-    player36.classList.remove('active4');
-    player37.classList.remove('active4');
-    player38.classList.remove('active4');
-    player39.classList.remove('active4');
-    player40.classList.remove('active4');
-
-    player41.classList.remove('active5');
-    player42.classList.remove('active5');
-    player43.classList.remove('active5');
-    player44.classList.remove('active5');
-    player45.classList.remove('active5');
-    player46.classList.remove('active5');
-    player47.classList.remove('active5');
-    player48.classList.remove('active5');
-    player49.classList.remove('active5');
-    player50.classList.remove('active5');
-
-    player51.classList.remove('active6');
-    player52.classList.remove('active6');
-    player53.classList.remove('active6');
-    player54.classList.remove('active6');
-    player55.classList.remove('active6');
-    player56.classList.remove('active6');
-    player57.classList.remove('active6');
-    player58.classList.remove('active6');
-    player59.classList.remove('active6');
-    player60.classList.remove('active6');
-
-    player61.classList.remove('active7');
-    player62.classList.remove('active7');
-    player63.classList.remove('active7');
-    player64.classList.remove('active7');
-    player65.classList.remove('active7');
-    player66.classList.remove('active7');
-    player67.classList.remove('active7');
-    player68.classList.remove('active7');
-    player69.classList.remove('active7');
-    player70.classList.remove('active7');
-
-    player81.classList.remove('active9');
-    player82.classList.remove('active9');
-    player83.classList.remove('active9');
-    player84.classList.remove('active9');
-    player85.classList.remove('active9');
-    player86.classList.remove('active9');
-    player87.classList.remove('active9');
-    player88.classList.remove('active9');
-    player89.classList.remove('active9');
-    player90.classList.remove('active9');
-
-    player91.classList.remove('activeten');
-    player92.classList.remove('activeten');
-    player93.classList.remove('activeten');
-    player94.classList.remove('activeten');
-    player95.classList.remove('activeten');
-    player96.classList.remove('activeten');
-    player97.classList.remove('activeten');
-    player98.classList.remove('activeten');
-    player99.classList.remove('activeten');
-    player100.classList.remove('activeten');
-
-    player101.classList.remove('active11');
-    player102.classList.remove('active11');
-    player103.classList.remove('active11');
-    player104.classList.remove('active11');
-    player105.classList.remove('active11');
-    player106.classList.remove('active11');
-    player107.classList.remove('active11');
-    player108.classList.remove('active11');
-    player109.classList.remove('active11');
-    player110.classList.remove('active11');
-
-    loadSong8(songs8[9]);
-    playMusic8();
-    pauseMusic();
-    pauseMusic2();
-    pauseMusic3();
-    pauseMusic4();
-    pauseMusic5();
-    pauseMusic6();
-    pauseMusic7();
-    pauseMusic9();
-    pauseMusicten();
-    pauseMusic11();
-
-    languages.classList.remove('active');
-    searchForm.classList.remove('active');
-    loginForm.classList.remove('active');
-    navbar.classList.remove('active');
-}
-
-let x8 = document.querySelector('.music_container8');
-
-document.querySelector('#cross8').onclick = () => {
-    x8.classList.remove('active8');
     pauseMusic8();
+    pauseMusic9();
+    pauseMusicten();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
+}
+let player102 = document.querySelector('.music_container11');
+
+document.querySelector('#shree-krishna-govind').onclick = () => {
+    player102.classList.toggle('active11');
+
+    player.classList.remove('active');
+    player2.classList.remove('active');
+    player3.classList.remove('active');
+    player4.classList.remove('active');
+    player5.classList.remove('active');
+    player6.classList.remove('active');
+    player7.classList.remove('active');
+    player8.classList.remove('active');
+    player9.classList.remove('active');
+    player10.classList.remove('active');
+
+    player11.classList.remove('active2');
+    player12.classList.remove('active2');
+    player13.classList.remove('active2');
+    player14.classList.remove('active2');
+    player15.classList.remove('active2');
+    player16.classList.remove('active2');
+    player17.classList.remove('active2');
+    player18.classList.remove('active2');
+    player19.classList.remove('active2');
+    player20.classList.remove('active2');
+
+    player21.classList.remove('active3');
+    player22.classList.remove('active3');
+    player23.classList.remove('active3');
+    player24.classList.remove('active3');
+    player25.classList.remove('active3');
+    player26.classList.remove('active3');
+    player27.classList.remove('active3');
+    player28.classList.remove('active3');
+    player29.classList.remove('active3');
+    player30.classList.remove('active3');
+
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
+
+    player41.classList.remove('active5');
+    player42.classList.remove('active5');
+    player43.classList.remove('active5');
+    player44.classList.remove('active5');
+    player45.classList.remove('active5');
+    player46.classList.remove('active5');
+    player47.classList.remove('active5');
+    player48.classList.remove('active5');
+    player49.classList.remove('active5');
+    player50.classList.remove('active5');
+
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
+    player71.classList.remove('active8');
+    player72.classList.remove('active8');
+    player73.classList.remove('active8');
+    player74.classList.remove('active8');
+    player75.classList.remove('active8');
+    player76.classList.remove('active8');
+    player77.classList.remove('active8');
+    player78.classList.remove('active8');
+    player79.classList.remove('active8');
+    player80.classList.remove('active8');
+
+    player81.classList.remove('active9');
+    player82.classList.remove('active9');
+    player83.classList.remove('active9');
+    player84.classList.remove('active9');
+    player85.classList.remove('active9');
+    player86.classList.remove('active9');
+    player87.classList.remove('active9');
+    player88.classList.remove('active9');
+    player89.classList.remove('active9');
+    player90.classList.remove('active9');
+
+    player91.classList.remove('activeten');
+    player92.classList.remove('activeten');
+    player93.classList.remove('activeten');
+    player94.classList.remove('activeten');
+    player95.classList.remove('activeten');
+    player96.classList.remove('activeten');
+    player97.classList.remove('activeten');
+    player98.classList.remove('activeten');
+    player99.classList.remove('activeten');
+    player100.classList.remove('activeten');
+
+    loadSong11(songs11[1]);
+    playMusic11();
+    pauseMusic();
+    pauseMusic2();
+    pauseMusic3();
+    pauseMusic4();
+    pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
+    pauseMusic8();
+    pauseMusic9();
+    pauseMusicten();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
+}
+let player103 = document.querySelector('.music_container11');
+
+document.querySelector('#radha-rani-lofi').onclick = () => {
+    player103.classList.toggle('active11');
+
+    player.classList.remove('active');
+    player2.classList.remove('active');
+    player3.classList.remove('active');
+    player4.classList.remove('active');
+    player5.classList.remove('active');
+    player6.classList.remove('active');
+    player7.classList.remove('active');
+    player8.classList.remove('active');
+    player9.classList.remove('active');
+    player10.classList.remove('active');
+
+    player11.classList.remove('active2');
+    player12.classList.remove('active2');
+    player13.classList.remove('active2');
+    player14.classList.remove('active2');
+    player15.classList.remove('active2');
+    player16.classList.remove('active2');
+    player17.classList.remove('active2');
+    player18.classList.remove('active2');
+    player19.classList.remove('active2');
+    player20.classList.remove('active2');
+
+    player21.classList.remove('active3');
+    player22.classList.remove('active3');
+    player23.classList.remove('active3');
+    player24.classList.remove('active3');
+    player25.classList.remove('active3');
+    player26.classList.remove('active3');
+    player27.classList.remove('active3');
+    player28.classList.remove('active3');
+    player29.classList.remove('active3');
+    player30.classList.remove('active3');
+
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
+
+    player41.classList.remove('active5');
+    player42.classList.remove('active5');
+    player43.classList.remove('active5');
+    player44.classList.remove('active5');
+    player45.classList.remove('active5');
+    player46.classList.remove('active5');
+    player47.classList.remove('active5');
+    player48.classList.remove('active5');
+    player49.classList.remove('active5');
+    player50.classList.remove('active5');
+
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
+    player71.classList.remove('active8');
+    player72.classList.remove('active8');
+    player73.classList.remove('active8');
+    player74.classList.remove('active8');
+    player75.classList.remove('active8');
+    player76.classList.remove('active8');
+    player77.classList.remove('active8');
+    player78.classList.remove('active8');
+    player79.classList.remove('active8');
+    player80.classList.remove('active8');
+
+    player81.classList.remove('active9');
+    player82.classList.remove('active9');
+    player83.classList.remove('active9');
+    player84.classList.remove('active9');
+    player85.classList.remove('active9');
+    player86.classList.remove('active9');
+    player87.classList.remove('active9');
+    player88.classList.remove('active9');
+    player89.classList.remove('active9');
+    player90.classList.remove('active9');
+
+    player91.classList.remove('activeten');
+    player92.classList.remove('activeten');
+    player93.classList.remove('activeten');
+    player94.classList.remove('activeten');
+    player95.classList.remove('activeten');
+    player96.classList.remove('activeten');
+    player97.classList.remove('activeten');
+    player98.classList.remove('activeten');
+    player99.classList.remove('activeten');
+    player100.classList.remove('activeten');
+
+    loadSong11(songs11[2]);
+    playMusic11();
+    pauseMusic();
+    pauseMusic2();
+    pauseMusic3();
+    pauseMusic4();
+    pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
+    pauseMusic8();
+    pauseMusic9();
+    pauseMusicten();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
+}
+let player104 = document.querySelector('.music_container11');
+
+document.querySelector('#Achyutam-Keshavam-Krishna').onclick = () => {
+    player104.classList.toggle('active11');
+
+    player.classList.remove('active');
+    player2.classList.remove('active');
+    player3.classList.remove('active');
+    player4.classList.remove('active');
+    player5.classList.remove('active');
+    player6.classList.remove('active');
+    player7.classList.remove('active');
+    player8.classList.remove('active');
+    player9.classList.remove('active');
+    player10.classList.remove('active');
+
+    player11.classList.remove('active2');
+    player12.classList.remove('active2');
+    player13.classList.remove('active2');
+    player14.classList.remove('active2');
+    player15.classList.remove('active2');
+    player16.classList.remove('active2');
+    player17.classList.remove('active2');
+    player18.classList.remove('active2');
+    player19.classList.remove('active2');
+    player20.classList.remove('active2');
+
+    player21.classList.remove('active3');
+    player22.classList.remove('active3');
+    player23.classList.remove('active3');
+    player24.classList.remove('active3');
+    player25.classList.remove('active3');
+    player26.classList.remove('active3');
+    player27.classList.remove('active3');
+    player28.classList.remove('active3');
+    player29.classList.remove('active3');
+    player30.classList.remove('active3');
+
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
+
+    player41.classList.remove('active5');
+    player42.classList.remove('active5');
+    player43.classList.remove('active5');
+    player44.classList.remove('active5');
+    player45.classList.remove('active5');
+    player46.classList.remove('active5');
+    player47.classList.remove('active5');
+    player48.classList.remove('active5');
+    player49.classList.remove('active5');
+    player50.classList.remove('active5');
+
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
+    player71.classList.remove('active8');
+    player72.classList.remove('active8');
+    player73.classList.remove('active8');
+    player74.classList.remove('active8');
+    player75.classList.remove('active8');
+    player76.classList.remove('active8');
+    player77.classList.remove('active8');
+    player78.classList.remove('active8');
+    player79.classList.remove('active8');
+    player80.classList.remove('active8');
+
+    player81.classList.remove('active9');
+    player82.classList.remove('active9');
+    player83.classList.remove('active9');
+    player84.classList.remove('active9');
+    player85.classList.remove('active9');
+    player86.classList.remove('active9');
+    player87.classList.remove('active9');
+    player88.classList.remove('active9');
+    player89.classList.remove('active9');
+    player90.classList.remove('active9');
+
+    player91.classList.remove('activeten');
+    player92.classList.remove('activeten');
+    player93.classList.remove('activeten');
+    player94.classList.remove('activeten');
+    player95.classList.remove('activeten');
+    player96.classList.remove('activeten');
+    player97.classList.remove('activeten');
+    player98.classList.remove('activeten');
+    player99.classList.remove('activeten');
+    player100.classList.remove('activeten');
+
+    loadSong11(songs11[3]);
+    playMusic11();
+    pauseMusic();
+    pauseMusic2();
+    pauseMusic3();
+    pauseMusic4();
+    pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
+    pauseMusic8();
+    pauseMusic9();
+    pauseMusicten();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
+}
+let player105 = document.querySelector('.music_container11');
+
+document.querySelector('#ala-re-ala').onclick = () => {
+    player105.classList.toggle('active11');
+
+    player.classList.remove('active');
+    player2.classList.remove('active');
+    player3.classList.remove('active');
+    player4.classList.remove('active');
+    player5.classList.remove('active');
+    player6.classList.remove('active');
+    player7.classList.remove('active');
+    player8.classList.remove('active');
+    player9.classList.remove('active');
+    player10.classList.remove('active');
+
+    player11.classList.remove('active2');
+    player12.classList.remove('active2');
+    player13.classList.remove('active2');
+    player14.classList.remove('active2');
+    player15.classList.remove('active2');
+    player16.classList.remove('active2');
+    player17.classList.remove('active2');
+    player18.classList.remove('active2');
+    player19.classList.remove('active2');
+    player20.classList.remove('active2');
+
+    player21.classList.remove('active3');
+    player22.classList.remove('active3');
+    player23.classList.remove('active3');
+    player24.classList.remove('active3');
+    player25.classList.remove('active3');
+    player26.classList.remove('active3');
+    player27.classList.remove('active3');
+    player28.classList.remove('active3');
+    player29.classList.remove('active3');
+    player30.classList.remove('active3');
+
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
+
+    player41.classList.remove('active5');
+    player42.classList.remove('active5');
+    player43.classList.remove('active5');
+    player44.classList.remove('active5');
+    player45.classList.remove('active5');
+    player46.classList.remove('active5');
+    player47.classList.remove('active5');
+    player48.classList.remove('active5');
+    player49.classList.remove('active5');
+    player50.classList.remove('active5');
+
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
+    player71.classList.remove('active8');
+    player72.classList.remove('active8');
+    player73.classList.remove('active8');
+    player74.classList.remove('active8');
+    player75.classList.remove('active8');
+    player76.classList.remove('active8');
+    player77.classList.remove('active8');
+    player78.classList.remove('active8');
+    player79.classList.remove('active8');
+    player80.classList.remove('active8');
+
+    player81.classList.remove('active9');
+    player82.classList.remove('active9');
+    player83.classList.remove('active9');
+    player84.classList.remove('active9');
+    player85.classList.remove('active9');
+    player86.classList.remove('active9');
+    player87.classList.remove('active9');
+    player88.classList.remove('active9');
+    player89.classList.remove('active9');
+    player90.classList.remove('active9');
+
+    player91.classList.remove('activeten');
+    player92.classList.remove('activeten');
+    player93.classList.remove('activeten');
+    player94.classList.remove('activeten');
+    player95.classList.remove('activeten');
+    player96.classList.remove('activeten');
+    player97.classList.remove('activeten');
+    player98.classList.remove('activeten');
+    player99.classList.remove('activeten');
+    player100.classList.remove('activeten');
+
+    loadSong11(songs11[4]);
+    playMusic11();
+    pauseMusic();
+    pauseMusic2();
+    pauseMusic3();
+    pauseMusic4();
+    pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
+    pauseMusic8();
+    pauseMusic9();
+    pauseMusicten();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
+}
+let player106 = document.querySelector('.music_container11');
+
+document.querySelector('#govind-bolo').onclick = () => {
+    player106.classList.toggle('active11');
+
+    player.classList.remove('active');
+    player2.classList.remove('active');
+    player3.classList.remove('active');
+    player4.classList.remove('active');
+    player5.classList.remove('active');
+    player6.classList.remove('active');
+    player7.classList.remove('active');
+    player8.classList.remove('active');
+    player9.classList.remove('active');
+    player10.classList.remove('active');
+
+    player11.classList.remove('active2');
+    player12.classList.remove('active2');
+    player13.classList.remove('active2');
+    player14.classList.remove('active2');
+    player15.classList.remove('active2');
+    player16.classList.remove('active2');
+    player17.classList.remove('active2');
+    player18.classList.remove('active2');
+    player19.classList.remove('active2');
+    player20.classList.remove('active2');
+
+    player21.classList.remove('active3');
+    player22.classList.remove('active3');
+    player23.classList.remove('active3');
+    player24.classList.remove('active3');
+    player25.classList.remove('active3');
+    player26.classList.remove('active3');
+    player27.classList.remove('active3');
+    player28.classList.remove('active3');
+    player29.classList.remove('active3');
+    player30.classList.remove('active3');
+
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
+
+    player41.classList.remove('active5');
+    player42.classList.remove('active5');
+    player43.classList.remove('active5');
+    player44.classList.remove('active5');
+    player45.classList.remove('active5');
+    player46.classList.remove('active5');
+    player47.classList.remove('active5');
+    player48.classList.remove('active5');
+    player49.classList.remove('active5');
+    player50.classList.remove('active5');
+
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
+    player71.classList.remove('active8');
+    player72.classList.remove('active8');
+    player73.classList.remove('active8');
+    player74.classList.remove('active8');
+    player75.classList.remove('active8');
+    player76.classList.remove('active8');
+    player77.classList.remove('active8');
+    player78.classList.remove('active8');
+    player79.classList.remove('active8');
+    player80.classList.remove('active8');
+
+    player81.classList.remove('active9');
+    player82.classList.remove('active9');
+    player83.classList.remove('active9');
+    player84.classList.remove('active9');
+    player85.classList.remove('active9');
+    player86.classList.remove('active9');
+    player87.classList.remove('active9');
+    player88.classList.remove('active9');
+    player89.classList.remove('active9');
+    player90.classList.remove('active9');
+
+    player91.classList.remove('activeten');
+    player92.classList.remove('activeten');
+    player93.classList.remove('activeten');
+    player94.classList.remove('activeten');
+    player95.classList.remove('activeten');
+    player96.classList.remove('activeten');
+    player97.classList.remove('activeten');
+    player98.classList.remove('activeten');
+    player99.classList.remove('activeten');
+    player100.classList.remove('activeten');
+
+    loadSong11(songs11[5]);
+    playMusic11();
+    pauseMusic();
+    pauseMusic2();
+    pauseMusic3();
+    pauseMusic4();
+    pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
+    pauseMusic8();
+    pauseMusic9();
+    pauseMusicten();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
+}
+let player107 = document.querySelector('.music_container11');
+
+document.querySelector('#Hare-Krishna-Hare').onclick = () => {
+    player107.classList.toggle('active11');
+
+    player.classList.remove('active');
+    player2.classList.remove('active');
+    player3.classList.remove('active');
+    player4.classList.remove('active');
+    player5.classList.remove('active');
+    player6.classList.remove('active');
+    player7.classList.remove('active');
+    player8.classList.remove('active');
+    player9.classList.remove('active');
+    player10.classList.remove('active');
+
+    player11.classList.remove('active2');
+    player12.classList.remove('active2');
+    player13.classList.remove('active2');
+    player14.classList.remove('active2');
+    player15.classList.remove('active2');
+    player16.classList.remove('active2');
+    player17.classList.remove('active2');
+    player18.classList.remove('active2');
+    player19.classList.remove('active2');
+    player20.classList.remove('active2');
+
+    player21.classList.remove('active3');
+    player22.classList.remove('active3');
+    player23.classList.remove('active3');
+    player24.classList.remove('active3');
+    player25.classList.remove('active3');
+    player26.classList.remove('active3');
+    player27.classList.remove('active3');
+    player28.classList.remove('active3');
+    player29.classList.remove('active3');
+    player30.classList.remove('active3');
+
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
+
+    player41.classList.remove('active5');
+    player42.classList.remove('active5');
+    player43.classList.remove('active5');
+    player44.classList.remove('active5');
+    player45.classList.remove('active5');
+    player46.classList.remove('active5');
+    player47.classList.remove('active5');
+    player48.classList.remove('active5');
+    player49.classList.remove('active5');
+    player50.classList.remove('active5');
+
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
+    player71.classList.remove('active8');
+    player72.classList.remove('active8');
+    player73.classList.remove('active8');
+    player74.classList.remove('active8');
+    player75.classList.remove('active8');
+    player76.classList.remove('active8');
+    player77.classList.remove('active8');
+    player78.classList.remove('active8');
+    player79.classList.remove('active8');
+    player80.classList.remove('active8');
+
+    player81.classList.remove('active9');
+    player82.classList.remove('active9');
+    player83.classList.remove('active9');
+    player84.classList.remove('active9');
+    player85.classList.remove('active9');
+    player86.classList.remove('active9');
+    player87.classList.remove('active9');
+    player88.classList.remove('active9');
+    player89.classList.remove('active9');
+    player90.classList.remove('active9');
+
+    player91.classList.remove('activeten');
+    player92.classList.remove('activeten');
+    player93.classList.remove('activeten');
+    player94.classList.remove('activeten');
+    player95.classList.remove('activeten');
+    player96.classList.remove('activeten');
+    player97.classList.remove('activeten');
+    player98.classList.remove('activeten');
+    player99.classList.remove('activeten');
+    player100.classList.remove('activeten');
+
+    loadSong11(songs11[6]);
+    playMusic11();
+    pauseMusic();
+    pauseMusic2();
+    pauseMusic3();
+    pauseMusic4();
+    pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
+    pauseMusic8();
+    pauseMusic9();
+    pauseMusicten();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
+}
+let player108 = document.querySelector('.music_container11');
+
+document.querySelector('#nand-lala').onclick = () => {
+    player108.classList.toggle('active11');
+
+    player.classList.remove('active');
+    player2.classList.remove('active');
+    player3.classList.remove('active');
+    player4.classList.remove('active');
+    player5.classList.remove('active');
+    player6.classList.remove('active');
+    player7.classList.remove('active');
+    player8.classList.remove('active');
+    player9.classList.remove('active');
+    player10.classList.remove('active');
+
+    player11.classList.remove('active2');
+    player12.classList.remove('active2');
+    player13.classList.remove('active2');
+    player14.classList.remove('active2');
+    player15.classList.remove('active2');
+    player16.classList.remove('active2');
+    player17.classList.remove('active2');
+    player18.classList.remove('active2');
+    player19.classList.remove('active2');
+    player20.classList.remove('active2');
+
+    player21.classList.remove('active3');
+    player22.classList.remove('active3');
+    player23.classList.remove('active3');
+    player24.classList.remove('active3');
+    player25.classList.remove('active3');
+    player26.classList.remove('active3');
+    player27.classList.remove('active3');
+    player28.classList.remove('active3');
+    player29.classList.remove('active3');
+    player30.classList.remove('active3');
+
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
+
+    player41.classList.remove('active5');
+    player42.classList.remove('active5');
+    player43.classList.remove('active5');
+    player44.classList.remove('active5');
+    player45.classList.remove('active5');
+    player46.classList.remove('active5');
+    player47.classList.remove('active5');
+    player48.classList.remove('active5');
+    player49.classList.remove('active5');
+    player50.classList.remove('active5');
+
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
+    player71.classList.remove('active8');
+    player72.classList.remove('active8');
+    player73.classList.remove('active8');
+    player74.classList.remove('active8');
+    player75.classList.remove('active8');
+    player76.classList.remove('active8');
+    player77.classList.remove('active8');
+    player78.classList.remove('active8');
+    player79.classList.remove('active8');
+    player80.classList.remove('active8');
+
+    player81.classList.remove('active9');
+    player82.classList.remove('active9');
+    player83.classList.remove('active9');
+    player84.classList.remove('active9');
+    player85.classList.remove('active9');
+    player86.classList.remove('active9');
+    player87.classList.remove('active9');
+    player88.classList.remove('active9');
+    player89.classList.remove('active9');
+    player90.classList.remove('active9');
+
+    player91.classList.remove('activeten');
+    player92.classList.remove('activeten');
+    player93.classList.remove('activeten');
+    player94.classList.remove('activeten');
+    player95.classList.remove('activeten');
+    player96.classList.remove('activeten');
+    player97.classList.remove('activeten');
+    player98.classList.remove('activeten');
+    player99.classList.remove('activeten');
+    player100.classList.remove('activeten');
+
+    loadSong11(songs11[7]);
+    playMusic11();
+    pauseMusic();
+    pauseMusic2();
+    pauseMusic3();
+    pauseMusic4();
+    pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
+    pauseMusic8();
+    pauseMusic9();
+    pauseMusicten();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
+}
+let player109 = document.querySelector('.music_container11');
+
+document.querySelector('#woh-krishna-hai').onclick = () => {
+    player109.classList.toggle('active11');
+
+    player.classList.remove('active');
+    player2.classList.remove('active');
+    player3.classList.remove('active');
+    player4.classList.remove('active');
+    player5.classList.remove('active');
+    player6.classList.remove('active');
+    player7.classList.remove('active');
+    player8.classList.remove('active');
+    player9.classList.remove('active');
+    player10.classList.remove('active');
+
+    player11.classList.remove('active2');
+    player12.classList.remove('active2');
+    player13.classList.remove('active2');
+    player14.classList.remove('active2');
+    player15.classList.remove('active2');
+    player16.classList.remove('active2');
+    player17.classList.remove('active2');
+    player18.classList.remove('active2');
+    player19.classList.remove('active2');
+    player20.classList.remove('active2');
+
+    player21.classList.remove('active3');
+    player22.classList.remove('active3');
+    player23.classList.remove('active3');
+    player24.classList.remove('active3');
+    player25.classList.remove('active3');
+    player26.classList.remove('active3');
+    player27.classList.remove('active3');
+    player28.classList.remove('active3');
+    player29.classList.remove('active3');
+    player30.classList.remove('active3');
+
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
+
+    player41.classList.remove('active5');
+    player42.classList.remove('active5');
+    player43.classList.remove('active5');
+    player44.classList.remove('active5');
+    player45.classList.remove('active5');
+    player46.classList.remove('active5');
+    player47.classList.remove('active5');
+    player48.classList.remove('active5');
+    player49.classList.remove('active5');
+    player50.classList.remove('active5');
+
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
+    player71.classList.remove('active8');
+    player72.classList.remove('active8');
+    player73.classList.remove('active8');
+    player74.classList.remove('active8');
+    player75.classList.remove('active8');
+    player76.classList.remove('active8');
+    player77.classList.remove('active8');
+    player78.classList.remove('active8');
+    player79.classList.remove('active8');
+    player80.classList.remove('active8');
+
+    player81.classList.remove('active9');
+    player82.classList.remove('active9');
+    player83.classList.remove('active9');
+    player84.classList.remove('active9');
+    player85.classList.remove('active9');
+    player86.classList.remove('active9');
+    player87.classList.remove('active9');
+    player88.classList.remove('active9');
+    player89.classList.remove('active9');
+    player90.classList.remove('active9');
+
+    player91.classList.remove('activeten');
+    player92.classList.remove('activeten');
+    player93.classList.remove('activeten');
+    player94.classList.remove('activeten');
+    player95.classList.remove('activeten');
+    player96.classList.remove('activeten');
+    player97.classList.remove('activeten');
+    player98.classList.remove('activeten');
+    player99.classList.remove('activeten');
+    player100.classList.remove('activeten');
+
+    loadSong11(songs11[8]);
+    playMusic11();
+    pauseMusic();
+    pauseMusic2();
+    pauseMusic3();
+    pauseMusic4();
+    pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
+    pauseMusic8();
+    pauseMusic9();
+    pauseMusicten();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
+}
+let player110 = document.querySelector('.music_container11');
+
+document.querySelector('#mithe-ras-se-bharyo').onclick = () => {
+    player110.classList.toggle('active11');
+
+    player.classList.remove('active');
+    player2.classList.remove('active');
+    player3.classList.remove('active');
+    player4.classList.remove('active');
+    player5.classList.remove('active');
+    player6.classList.remove('active');
+    player7.classList.remove('active');
+    player8.classList.remove('active');
+    player9.classList.remove('active');
+    player10.classList.remove('active');
+
+    player11.classList.remove('active2');
+    player12.classList.remove('active2');
+    player13.classList.remove('active2');
+    player14.classList.remove('active2');
+    player15.classList.remove('active2');
+    player16.classList.remove('active2');
+    player17.classList.remove('active2');
+    player18.classList.remove('active2');
+    player19.classList.remove('active2');
+    player20.classList.remove('active2');
+
+    player21.classList.remove('active3');
+    player22.classList.remove('active3');
+    player23.classList.remove('active3');
+    player24.classList.remove('active3');
+    player25.classList.remove('active3');
+    player26.classList.remove('active3');
+    player27.classList.remove('active3');
+    player28.classList.remove('active3');
+    player29.classList.remove('active3');
+    player30.classList.remove('active3');
+
+    player31.classList.remove('active4');
+    player32.classList.remove('active4');
+    player33.classList.remove('active4');
+    player34.classList.remove('active4');
+    player35.classList.remove('active4');
+    player36.classList.remove('active4');
+    player37.classList.remove('active4');
+    player38.classList.remove('active4');
+    player39.classList.remove('active4');
+    player40.classList.remove('active4');
+
+    player41.classList.remove('active5');
+    player42.classList.remove('active5');
+    player43.classList.remove('active5');
+    player44.classList.remove('active5');
+    player45.classList.remove('active5');
+    player46.classList.remove('active5');
+    player47.classList.remove('active5');
+    player48.classList.remove('active5');
+    player49.classList.remove('active5');
+    player50.classList.remove('active5');
+
+    player51.classList.remove('active6');
+    player52.classList.remove('active6');
+    player53.classList.remove('active6');
+    player54.classList.remove('active6');
+    player55.classList.remove('active6');
+    player56.classList.remove('active6');
+    player57.classList.remove('active6');
+    player58.classList.remove('active6');
+    player59.classList.remove('active6');
+    player60.classList.remove('active6');
+
+    player61.classList.remove('active7');
+    player62.classList.remove('active7');
+    player63.classList.remove('active7');
+    player64.classList.remove('active7');
+    player65.classList.remove('active7');
+    player66.classList.remove('active7');
+    player67.classList.remove('active7');
+    player68.classList.remove('active7');
+    player69.classList.remove('active7');
+    player70.classList.remove('active7');
+
+    player71.classList.remove('active8');
+    player72.classList.remove('active8');
+    player73.classList.remove('active8');
+    player74.classList.remove('active8');
+    player75.classList.remove('active8');
+    player76.classList.remove('active8');
+    player77.classList.remove('active8');
+    player78.classList.remove('active8');
+    player79.classList.remove('active8');
+    player80.classList.remove('active8');
+
+    player81.classList.remove('active9');
+    player82.classList.remove('active9');
+    player83.classList.remove('active9');
+    player84.classList.remove('active9');
+    player85.classList.remove('active9');
+    player86.classList.remove('active9');
+    player87.classList.remove('active9');
+    player88.classList.remove('active9');
+    player89.classList.remove('active9');
+    player90.classList.remove('active9');
+
+    player91.classList.remove('activeten');
+    player92.classList.remove('activeten');
+    player93.classList.remove('activeten');
+    player94.classList.remove('activeten');
+    player95.classList.remove('activeten');
+    player96.classList.remove('activeten');
+    player97.classList.remove('activeten');
+    player98.classList.remove('activeten');
+    player99.classList.remove('activeten');
+    player100.classList.remove('activeten');
+
+    loadSong11(songs11[9]);
+    playMusic11();
+    pauseMusic();
+    pauseMusic2();
+    pauseMusic3();
+    pauseMusic4();
+    pauseMusic5();
+    pauseMusic6();
+    pauseMusic7();
+    pauseMusic8();
+    pauseMusic9();
+    pauseMusicten();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 
-const music8 = document.querySelector("#audio8");
-const img8 = document.querySelector("#img8");
-const play8 = document.getElementById("play8");
-const artist8 = document.getElementById("artist8");
-const title8 = document.getElementById("title8");
-const prev8 = document.getElementById("prev8");
-const next8 = document.getElementById("next8");
-let progress8 = document.getElementById("progress8");
-let total_duration8 = document.getElementById("duration8");
-let current_time8 = document.getElementById("current_time8");
-const progress_div8 = document.getElementById("progress_div8");
 
-const songs8 = [
-     {//71
-        name8: "Tum-Mile-Lofi",
-        title8: "Tum Mile Lofi",
-        artist8: "Pritam Chakraborty"
-    },
-    {//72
-        name8: "Waalian-Lofi",
-        title8: "Waalian Lofi",
-        artist8: "Harnoor"
-    },
-    {//73
-        name8: "Mera-Mann-Lofi",
-        title8: "Mera Mann Lofi",
-        artist8: "Divyam Agarwal"
-    },
-    {//74
-        name8: "Tum-Jo-Aaye-Lofi",
-        title8: "Tum Jo Aaye Lofi",
-        artist8: "Fateh Ali Khan"
-    },
-    {//75
-        name8: "Ranjha-Lofi",
-        title8: "Ranjha Lofi",
-        artist8: "B Parag"
-    },
+let x11 = document.querySelector('.music_container11');
 
-    {//76
-        name8: "Jashne-Bahara-Lofi",
-        title8: "Jashne Bahara",
-        artist8: "Jammy weirdo"
+document.querySelector('#cross11').onclick = () => {
+    x11.classList.remove('active11');
+    pauseMusic11();
+}
+
+const music11 = document.querySelector("#audio11");
+const img11 = document.querySelector("#img11");
+const play11 = document.getElementById("play11");
+const artist11 = document.getElementById("artist11");
+const title11 = document.getElementById("title11");
+const prev11 = document.getElementById("prev11");
+const next11 = document.getElementById("next11");
+let progress11 = document.getElementById("progress11");
+let total_duration11 = document.getElementById("duration11");
+let current_time11 = document.getElementById("current_time11");
+const progress_div11 = document.getElementById("progress_div11");
+
+const songs11 = [
+    {//101
+        name11: "tum-prem-ho",
+        title11: "tum prem ho",
+        artist11: "Mohit Lalwani"
     },
-    {//77
-        name8: "Dil-Ibadat-LoFi",
-        title8: "Dil Ibadat LoFi",
-        artist8: "Deepanshu Ruhela"
+    {//102
+        name11: "shree-krishna-govind",
+        title11: "krishna govind",
+        artist11: "Maanya Arora"
     },
-    {//78
-        name8: "Teri-Deewani-LoFi",
-        title8: "Teri Deewani LoFi",
-        artist8: "Kailesh Kher"
+    {//103
+        name11: "radha-rani-lofi",
+        title11: "radha rani lofi",
+        artist11: "DJ Glory"
     },
-    {//79
-        name8: "Channa-Mereya-LoFi",
-        title8: "Channa Mereya",
-        artist8:  "Arijit Singh"
+    {//104
+        name11: "Achyutam-Keshavam-Krishna",
+        title11: "AchyutamKeshavam",
+        artist11: "Sagarika Bhattacherjee"
     },
-    {//80
-        name8: "Saibo-Lofi-Flip",
-        title8: "Saibo Lofi Flip",
-        artist8:  "Shreya Ghoshal"
+    {//105
+        name11: "ala-re-ala",
+        title11: "ala re ala",
+        artist11: "Maanya Arora"
+    },
+    {//106
+        name11: "govind-bolo",
+        title11: "govind bolo",
+        artist11: "Jubin Nautiyal"
+    },
+    {//107
+        name11: "Hare-Krishna-Hare",
+        title11: "Hare Krishna",
+        artist11: "Palak Muchhal"
+    },
+    {//108
+        name11: "nand-lala",
+        title11: "nand lala",
+        artist11:  "Palak Muchhal"
+    },
+    {//109
+        name11: "woh-krishna-hai",
+        title11: "woh krishna hai",
+        artist11: "Bharti"
+    },
+    {//110
+        name11: "mithe-ras-se-bharyo",
+        title11: "mithe ras se",
+        artist11:  "Maanya Arora"
     },
 ]
 
 // for play function
-let isPlaying8 = false;
-const playMusic8 = () => {
-    isPlaying8 = true
+let isPlaying11 = false;
+const playMusic11 = () => {
+    isPlaying11 = true
 
-    music8.play();
-    play8.classList.replace("fa-play", "fa-pause");
-    img8.classList.add("anime8");
+    music11.play();
+    play11.classList.replace("fa-play", "fa-pause");
+    img11.classList.add("anime11");
 };
 
 // for pause function
-const pauseMusic8 = () => {
-    isPlaying8 = false
+const pauseMusic11 = () => {
+    isPlaying11 = false
 
-    music8.pause();
-    play8.classList.replace("fa-pause", "fa-play");
-    img8.classList.remove("anime8");
+    music11.pause();
+    play11.classList.replace("fa-pause", "fa-play");
+    img11.classList.remove("anime11");
 };
 
-play8.addEventListener("click", () => {
-    isPlaying8 ? pauseMusic8() : playMusic8();
+play11.addEventListener("click", () => {
+    isPlaying11 ? pauseMusic11() : playMusic11();
 });
 
 // changing music data
-const loadSong8 = (songs8) => {
-    title8.textContent = songs8.title8
-    artist8.textContent = songs8.artist8
-    music8.src = "music8/" + songs8.name8 + ".mp3"
-    img8.src = "images/" + songs8.name8 + ".webp"
+const loadSong11 = (songs11) => {
+    title11.textCon11t = songs11.title11
+    artist11.textCon11t = songs11.artist11
+    music11.src = "music11/" + songs11.name11 + ".mp3"
+    img11.src = "images/" + songs11.name11 + ".webp"
 };
 
-songIndex8 = 0;
-// loadSong8(songs8[2]);
-const nextSong8 = () => {
-    songIndex8 = (songIndex8 + 1) % songs8.length;
-    loadSong8(songs8[songIndex8]);
-    playMusic8();
+songIndex11 = 0;
+// loadSong11(songs11[2]);
+const nextSong11 = () => {
+    songIndex11 = (songIndex11 + 1) % songs11.length;
+    loadSong11(songs11[songIndex11]);
+    playMusic11();
 }
 
-const prevSong8 = () => {
-    songIndex8 = (songIndex8 - 1 + songs8.length) % songs8.length;
-    loadSong8(songs8[songIndex8]);
-    playMusic8();
+const prevSong11 = () => {
+    songIndex11 = (songIndex11 - 1 + songs11.length) % songs11.length;
+    loadSong11(songs11[songIndex11]);
+    playMusic11();
 }
 
 // progress js work 
-music8.addEventListener('timeupdate', (event) => {
+music11.addEventListener('timeupdate', (event) => {
     // console.log(event);
     const { currentTime, duration } = event.srcElement;
     let progress_time = (currentTime / duration) * 100;
-    progress8.style.width = `${progress_time}%`;
+    progress11.style.width = `${progress_time}%`;
 
     // music duration update 
-    let min_duration = Math.floor(duration / 80);
-    let sec_duration = Math.floor(duration % 80);
+    let min_duration = Math.floor(duration / 90);
+    let sec_duration = Math.floor(duration % 90);
 
     let tot_duration = `${min_duration}:${sec_duration}`;
     if (duration) {
@@ -1471,24 +1464,24 @@ music8.addEventListener('timeupdate', (event) => {
     }
 
     // current duration update 
-    let min_currentTime = Math.floor(currentTime / 80);
-    let sec_currentTime = Math.floor(currentTime % 80);
+    let min_currentTime = Math.floor(currentTime / 90);
+    let sec_currentTime = Math.floor(currentTime % 90);
     if (sec_currentTime < 10) {
         sec_currentTime = `0${sec_currentTime}`;
     }
     let tot_currentTime = `${min_currentTime}:${sec_currentTime}`;
-    current_time8.textContent = `${tot_currentTime}`;
+    current_time11.textContent = `${tot_currentTime}`;
 });
 
 // progress onclick functionality 
-progress_div8.addEventListener('click', (event) => {
-    const { duration } = music8;
+progress_div11.addEventListener('click', (event) => {
+    const { duration } = music11;
     let move_progress = (event.offsetX / event.srcElement.clientWidth) * duration;
-    music8.currentTime = move_progress;
+    music11.currentTime = move_progress;
 });
 
 // if music end next song Function 
-music8.addEventListener('ended', nextSong8);
+music11.addEventListener('ended', nextSong11);
 
-next8.addEventListener("click", nextSong8);
-prev8.addEventListener("click", prevSong8);
+next11.addEventListener("click", nextSong11);
+prev11.addEventListener("click", prevSong11);

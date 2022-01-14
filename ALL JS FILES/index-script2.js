@@ -104,6 +104,17 @@ document.querySelector('#Chaka-Chak').onclick = () => {
     player99.classList.remove('activeten');
     player100.classList.remove('activeten');
 
+    player101.classList.remove('active11');
+    player102.classList.remove('active11');
+    player103.classList.remove('active11');
+    player104.classList.remove('active11');
+    player105.classList.remove('active11');
+    player106.classList.remove('active11');
+    player107.classList.remove('active11');
+    player108.classList.remove('active11');
+    player109.classList.remove('active11');
+    player110.classList.remove('active11');
+
     loadSong2(songs2[0]);
     playMusic2();
     pauseMusic();
@@ -115,6 +126,12 @@ document.querySelector('#Chaka-Chak').onclick = () => {
     pauseMusic8();
     pauseMusic9();
     pauseMusicten();
+    pauseMusic11();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 
 let player12 = document.querySelector('.music_container2');
@@ -209,6 +226,17 @@ document.querySelector('#Bijlee-Bijlee').onclick = () => {
     player99.classList.remove('activeten');
     player100.classList.remove('activeten');
 
+    player101.classList.remove('active11');
+    player102.classList.remove('active11');
+    player103.classList.remove('active11');
+    player104.classList.remove('active11');
+    player105.classList.remove('active11');
+    player106.classList.remove('active11');
+    player107.classList.remove('active11');
+    player108.classList.remove('active11');
+    player109.classList.remove('active11');
+    player110.classList.remove('active11');
+
     loadSong2(songs2[1]);
     playMusic2();
     pauseMusic();
@@ -220,6 +248,12 @@ document.querySelector('#Bijlee-Bijlee').onclick = () => {
     pauseMusic8();
     pauseMusic9();
     pauseMusicten();
+    pauseMusic11();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player13 = document.querySelector('.music_container2');
 
@@ -324,6 +358,17 @@ document.querySelector('#Raflaan').onclick = () => {
     player99.classList.remove('activeten');
     player100.classList.remove('activeten');
 
+    player101.classList.remove('active11');
+    player102.classList.remove('active11');
+    player103.classList.remove('active11');
+    player104.classList.remove('active11');
+    player105.classList.remove('active11');
+    player106.classList.remove('active11');
+    player107.classList.remove('active11');
+    player108.classList.remove('active11');
+    player109.classList.remove('active11');
+    player110.classList.remove('active11');
+
     loadSong2(songs2[2]);
     playMusic2();
     pauseMusic();
@@ -335,6 +380,12 @@ document.querySelector('#Raflaan').onclick = () => {
     pauseMusic8();
     pauseMusic9();
     pauseMusicten();
+    pauseMusic11();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player14 = document.querySelector('.music_container2');
 
@@ -440,6 +491,17 @@ document.querySelector('#Sajna').onclick = () => {
     player99.classList.remove('activeten');
     player100.classList.remove('activeten');
 
+    player101.classList.remove('active11');
+    player102.classList.remove('active11');
+    player103.classList.remove('active11');
+    player104.classList.remove('active11');
+    player105.classList.remove('active11');
+    player106.classList.remove('active11');
+    player107.classList.remove('active11');
+    player108.classList.remove('active11');
+    player109.classList.remove('active11');
+    player110.classList.remove('active11');
+
     loadSong2(songs2[3]);
     playMusic2();
     pauseMusic();
@@ -451,6 +513,12 @@ document.querySelector('#Sajna').onclick = () => {
     pauseMusic8();
     pauseMusic9();
     pauseMusicten();
+    pauseMusic11();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player15 = document.querySelector('.music_container2');
 
@@ -556,6 +624,17 @@ document.querySelector('#Feelinga').onclick = () => {
     player99.classList.remove('activeten');
     player100.classList.remove('activeten');
 
+    player101.classList.remove('active11');
+    player102.classList.remove('active11');
+    player103.classList.remove('active11');
+    player104.classList.remove('active11');
+    player105.classList.remove('active11');
+    player106.classList.remove('active11');
+    player107.classList.remove('active11');
+    player108.classList.remove('active11');
+    player109.classList.remove('active11');
+    player110.classList.remove('active11');
+
     loadSong2(songs2[4]);
     playMusic2();
     pauseMusic();
@@ -567,6 +646,12 @@ document.querySelector('#Feelinga').onclick = () => {
     pauseMusic8();
     pauseMusic9();
     pauseMusicten();
+    pauseMusic11();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player16 = document.querySelector('.music_container2');
 
@@ -672,6 +757,17 @@ document.querySelector('#Aashiqui').onclick = () => {
     player99.classList.remove('activeten');
     player100.classList.remove('activeten');
 
+    player101.classList.remove('active11');
+    player102.classList.remove('active11');
+    player103.classList.remove('active11');
+    player104.classList.remove('active11');
+    player105.classList.remove('active11');
+    player106.classList.remove('active11');
+    player107.classList.remove('active11');
+    player108.classList.remove('active11');
+    player109.classList.remove('active11');
+    player110.classList.remove('active11');
+
     loadSong2(songs2[5]);
     playMusic2();
     pauseMusic();
@@ -683,6 +779,12 @@ document.querySelector('#Aashiqui').onclick = () => {
     pauseMusic8();
     pauseMusic9();
     pauseMusicten();
+    pauseMusic11();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player17 = document.querySelector('.music_container2');
 
@@ -787,6 +889,17 @@ document.querySelector('#Hello').onclick = () => {
     player99.classList.remove('activeten');
     player100.classList.remove('activeten');
 
+    player101.classList.remove('active11');
+    player102.classList.remove('active11');
+    player103.classList.remove('active11');
+    player104.classList.remove('active11');
+    player105.classList.remove('active11');
+    player106.classList.remove('active11');
+    player107.classList.remove('active11');
+    player108.classList.remove('active11');
+    player109.classList.remove('active11');
+    player110.classList.remove('active11');
+
     loadSong2(songs2[6]);
     playMusic2();
     pauseMusic();
@@ -798,6 +911,12 @@ document.querySelector('#Hello').onclick = () => {
     pauseMusic8();
     pauseMusic9();
     pauseMusicten();
+    pauseMusic11();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player18 = document.querySelector('.music_container2');
 
@@ -902,6 +1021,17 @@ document.querySelector('#Qatal').onclick = () => {
     player99.classList.remove('activeten');
     player100.classList.remove('activeten');
 
+    player101.classList.remove('active11');
+    player102.classList.remove('active11');
+    player103.classList.remove('active11');
+    player104.classList.remove('active11');
+    player105.classList.remove('active11');
+    player106.classList.remove('active11');
+    player107.classList.remove('active11');
+    player108.classList.remove('active11');
+    player109.classList.remove('active11');
+    player110.classList.remove('active11');
+
     loadSong2(songs2[7]);
     playMusic2();
     pauseMusic();
@@ -913,6 +1043,12 @@ document.querySelector('#Qatal').onclick = () => {
     pauseMusic8();
     pauseMusic9();
     pauseMusicten();
+    pauseMusic11();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player19 = document.querySelector('.music_container2');
 
@@ -1017,6 +1153,17 @@ document.querySelector('#Masked').onclick = () => {
     player99.classList.remove('activeten');
     player100.classList.remove('activeten');
 
+    player101.classList.remove('active11');
+    player102.classList.remove('active11');
+    player103.classList.remove('active11');
+    player104.classList.remove('active11');
+    player105.classList.remove('active11');
+    player106.classList.remove('active11');
+    player107.classList.remove('active11');
+    player108.classList.remove('active11');
+    player109.classList.remove('active11');
+    player110.classList.remove('active11');
+
     loadSong2(songs2[8]);
     playMusic2();
     pauseMusic();
@@ -1028,6 +1175,12 @@ document.querySelector('#Masked').onclick = () => {
     pauseMusic8();
     pauseMusic9();
     pauseMusicten();
+    pauseMusic11();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player20 = document.querySelector('.music_container2');
 
@@ -1132,6 +1285,17 @@ document.querySelector('#Aashiq').onclick = () => {
     player99.classList.remove('activeten');
     player100.classList.remove('activeten');
 
+    player101.classList.remove('active11');
+    player102.classList.remove('active11');
+    player103.classList.remove('active11');
+    player104.classList.remove('active11');
+    player105.classList.remove('active11');
+    player106.classList.remove('active11');
+    player107.classList.remove('active11');
+    player108.classList.remove('active11');
+    player109.classList.remove('active11');
+    player110.classList.remove('active11');
+
     loadSong2(songs2[9]);
     playMusic2();
     pauseMusic();
@@ -1143,6 +1307,12 @@ document.querySelector('#Aashiq').onclick = () => {
     pauseMusic8();
     pauseMusic9();
     pauseMusicten();
+    pauseMusic11();
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let x2 = document.querySelector('.music_container2');
 

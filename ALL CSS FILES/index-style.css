@@ -645,6 +645,14 @@ body.actives{
     position: relative;
     top: 27rem;
 }
+.h11{
+    position: relative;
+    top: 31rem;
+}
+.cards-11{
+    position: relative;
+    top: 31rem;
+}
 /* --------------------------------------- */
 /* Music Player */
 *,
@@ -2288,6 +2296,174 @@ html{
 /* Music Player 10 Ends*/
 /* ---------------------------------------------- */
 
+
+/* ---------------------------------------------- */
+/* Music Player 11 Starts*/
+.music_container11{
+    width: 35rem;
+    height: 55rem;
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+    border-radius: 2rem;
+    box-shadow: 0 1,2rem 3rem 0.5rem rgba(0, 0, 0,0.2);
+    padding: 3rem;
+    text-align: center;
+    position: absolute;
+    top: 110%; right: -110%;
+}
+.music_container11 #cross11{
+    font-size: 31px;
+    position: absolute;
+    right: 17px;
+    top: 15px;
+    color: var(--black);
+}
+.music_container11 #cross11:hover{
+   color: var(--green);
+}
+.music_container11.active11{
+    right:2rem;
+    transition: .4s linear;
+}
+.music_container11 #title11{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    color: var(--black);
+    margin: 2rem 0 0.5rem 0;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0 ,0.3);
+}
+.music_container11 #title11:hover{
+  color: var(--green);
+}
+.music_container11 #artist11{
+    color: var(--black);
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    font-weight: 300;
+}
+.music_container11 #artist11:hover{
+    color: var(--green);
+  }
+.music_container11 .img_container11{
+    width: 25rem;
+    width: 25rem;
+    margin: auto;
+}
+.music_container11 .img_container11 #img11{
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0,0, 0.4);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.music_container11 .music_controls11{
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+.music_container11 .music_controls11 .fas{
+    color: var(--black);
+    font-size: 2rem;
+    cursor: pointer;
+    filter: drop-shadow(0 1.2rem 3rem 0.5rem rgba(0 ,0, 0, 0.4));
+}
+.music_container11 .music_controls11 .main_button11{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: var(--black);
+    color: var(--bg-color);
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.music_container11 .music_controls11 .fas:hover{
+  color: var(--green);
+}
+.music_container11 .music_controls11 .fa-play:hover{
+    background-color: var(--green);
+    color: var(--black);
+    box-shadow: 0 1rem 2rem 0.2rem rgba(0 ,0, 0, 0.4);
+}
+.music_container11 .progressbar_container11{
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+#current_time11{
+    color: var(--black);
+}
+#duration11{
+    color: var(--black);
+}
+.music_container11 .progressbar_container11 .progress_div11{
+   width: 100%;
+   height: 0.5rem;
+   box-shadow: 0 1px  2px  rgba(0 ,0, 0, 0.07), 0 2px 4px  rgba(0 ,0, 0, 0.07),
+               0 4px  8px  rgba(0 ,0, 0, 0.07),0 8px  16px rgba(0 ,0, 0, 0.07),
+               0 16PX 32PX rgba(0 ,0, 0, 0.07),0 32PX 64PX rgba(0 ,0, 0, 0.07);
+
+    border-radius: 4rem;
+    position: relative;
+    margin-top: 00.5rem;
+    transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.music_container11 .progressbar_container11 .progress_div11 .progress11{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: var(--black);
+    border-radius: 4rem;
+    /* transition: width 1s linear;
+    -moz-transition: width 1s linear;
+    -o-transition: width 1s linear;
+    -webkit-transition: width 1s linear; */
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.music_container11 .progressbar_container11 .progress_duration_meter11{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.anime11{
+    animation: rotatePlayer 3s linear infinite;
+}
+@keyframes rotatePlayer{
+    from {
+         transform: rotate(0deg); 
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/* Music Player 11 Ends*/
+/* ---------------------------------------------- */
+
+
+
+
+
+
 /* media queries  */
 
 @media (max-width:991px){
@@ -2511,6 +2687,13 @@ html{
     }
     .cards-10 {
         top: 9rem;
+        height: 211px;
+    }
+    .h11 {
+        top: 10rem;
+    }
+    .cards-11 {
+        top: 10rem;
         height: 211px;
     }
    
