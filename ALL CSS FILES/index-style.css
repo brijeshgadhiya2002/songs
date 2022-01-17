@@ -2458,13 +2458,86 @@ html{
 }
 /* Music Player 11 Ends*/
 /* ---------------------------------------------- */
-
+.cont{
+    border: 1px solid var(--black);
+    background-color: var(--bg-color);
+    border-radius: 2rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+    top: 35rem;
+    text-align: center;
+}
+.cont:hover{
+    box-shadow: var(--box-shadow);
+}
+.cont .lo{
+    height: 12rem;
+    width: 45rem;
+    display: grid;
+    align-content: center;
+}
+.cont .lo i{
+   font-size: 7rem;
+   color: red;
+}
+.cont .lo i:hover{
+    box-shadow: none;
+    transform: scale(0.98) translateY(5px);
+}
+.cont2{
+    height: 12rem;
+    width: 45rem;
+    display: grid;
+    align-content: center;
+}
+.cont2 h1{
+    font-size: 25px;
+}
+   
+.cont2 p{
+    color: var(--black);
+    font-size: 12px;
+    /* position: relative;
+    top: -15px;
+    left: -29px; */
+}
+.img-cont{
+    height: 12rem;
+    width: 45rem;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+.cont .lo a{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:var(--black);
+    font-size: 34px;
+}
+.cont .lo i{
+    color:red;
+    font-size: 41px;
+}
+.cont .lo span{
+    color:red;
+    font-size: 34px;
+}
 
 
 
 
 
 /* media queries  */
+@media (max-width:1086px){
+    .cont {
+        display: inline-grid;
+        justify-content: center;
+      }
+      .cont .lo {
+        width: 45rem;
+      }
+}
 
 @media (max-width:991px){
     html{
@@ -2562,6 +2635,17 @@ html{
         border-radius: 2rem;
         width: 37rem;
     }
+    .cont {
+        display: inline-grid;
+        justify-content: center;
+      }
+      .cont .lo {
+        width: 45rem;
+      }
+      .row-1 h1 {
+        font-size: 21px;
+      }
+
 }
 
 @media (max-width:450px){
@@ -2696,6 +2780,14 @@ html{
         top: 10rem;
         height: 211px;
     }
+    /* ---------------------------------- */
+    .row-1 h1 {
+        font-size: 21px;
+      }
+      .cont {
+        top: 13rem;
+      }
+    /* ----------------------------------- */
    
 }
 @media (max-width:390px){
