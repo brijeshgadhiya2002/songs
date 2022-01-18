@@ -2650,7 +2650,7 @@ html{
 
   
 footer{
-    height: 8vh;
+    height: 12vh;
     background-color: var(--bg-color);
     box-shadow: var(--box-shadow);
     color: var(--black);
