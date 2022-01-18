@@ -2536,6 +2536,9 @@ html{
     text-align: center;
     justify-content: center;
 }
+.CONT:hover{
+    box-shadow: var(--box-shadow);
+}
 .CONT h1{
     font-size: 25px;
     position: relative;
@@ -2847,6 +2850,7 @@ html{
       }
       .CONT p {
         position: relative;
+        font-size: 11px;
         top: 30px;
       }
       .SAVE {
