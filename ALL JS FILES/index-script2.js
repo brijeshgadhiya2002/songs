@@ -1376,7 +1376,7 @@ const songs2 = [
     {//9
         name2: "Masked",
         title2: "It's You, Not Me ",
-        artist2: "Masked Wolf & Bebe Rexha"
+        artist2: "Masked Wolf"
     },
     {//10
         name2: "Aashiq",
