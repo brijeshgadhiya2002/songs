@@ -2569,8 +2569,105 @@ html{
     background: rgb(192, 0, 0);
 }
 
+.line1{
+    width: 100%;
+    height: .05px;
+    position: relative;
+    top: 2rem;
+    background-color: var(--black);
+}
+.line2{
+    width: 100%;
+    height: 1px;
+    position: relative;
+    top: 7rem;
+    background-color: var(--black);
+}
+.contact form{
+    margin:1rem auto;
+    max-width: 70rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding:2rem;
+}
 
+.contact form .box{
+    padding:1rem 1.5rem;
+    width:100%;
+    background: none;
+    color:var(--black);
+    font-size: 1.6rem;
+    text-transform: none;
+    margin:.7rem 0;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+}
 
+.contact form textarea{
+    height: 20rem;
+    resize: none;
+}
+
+.contact form .box:focus{
+    box-shadow: var(--box-shadow-inset);
+}
+#contact{
+    padding: 3rem 2rem;
+    position: relative;
+    top: 32rem;
+}
+
+.share-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 4rem;
+}
+.share{
+    position: relative;
+    border-radius: 2.5rem;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+}
+
+.share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    box-shadow: var(--box-shadow);
+    margin:.5rem;
+    font-size: 2rem;
+    color:var(--black);
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.share a:hover{
+    box-shadow: var(--box-shadow-inset);
+    color:var(--green);
+}
+
+  
+footer{
+    height: 8vh;
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+    color: var(--black);
+    position: relative;
+    top: 37rem;
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    font-size: 20px;
+    display: flex;
+    align-items: center
+
+}
+footer span{
+  color: var(--green);
+}
 /* media queries  */
 @media (max-width:1086px){
     .cont {
@@ -2586,6 +2683,8 @@ html{
         top: 12px;
       }
 }
+
+
 
 @media (max-width:991px){
     html{
@@ -2698,6 +2797,9 @@ html{
       }
       .CONT p {
         font-size: 12px;
+      }
+      footer p {
+        font-size: 15px;
       }
 
 }
@@ -2857,6 +2959,15 @@ html{
         position: relative;
         top: 20px;
       }
+      #contact{
+        top: 12rem;
+      }
+      footer p {
+        font-size: 13px;
+      }
+     footer {
+        top: 18rem;
+    }
     /* ----------------------------------- */
    
 }
@@ -2865,4 +2976,7 @@ html{
         height: 161px;
         /* height: 173px; */
     }
+    footer p {
+        font-size: 11px;
+      }
 }
