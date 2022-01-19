@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.png">
     <title>My Music</title>
 
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
@@ -306,7 +307,7 @@
             <a href="#">home</a>
             <a href="#">PODCASTS <img src="images/new.png" class="new" alt=""></a>
             <a href="#" id="download">DOWNLOAD APP</a>
-            <a href="#contact">contact</a>
+            <a href="#contact">CONTACT</a>
         </nav>
         <div class="icons">
             <div id="theme-toggler" class="fas fa-moon"></div>
@@ -383,7 +384,7 @@
                 <p>My Music is the one-stop music app for the latest to the greatest songs that you love. Play your
                     favourite music online for free or download mp3. Enjoy Hindi, English, Bollywood, Regional,
                     Latest,Old songs</p>
-                <a href="#" class="btn-2">Play Songs</a>
+                <a href="#" class="btn-2" id="play_songs">Play Songs</a>
             </div>
             <div class="swiper books-slider">
                 <div class="swiper-wrapper">
@@ -911,12 +912,13 @@
     <section class="contact" id="contact">
         <h1 class="heading"> <span>contact</span> me </h1>
 
-        <form action="">
-            <input type="text" placeholder="your name" class="box">
-            <input type="email" placeholder="your email" class="box">
-            <input type="text" placeholder="subject" class="box">
-            <textarea name="" class="box" placeholder="your message" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="send message" class="btn">
+        <form action="https://formspree.io/f/mbjwdknq" method="POST">
+            <input type="text" placeholder="your name" class="box" name="name" required>
+            <input type="email" placeholder="your email" class="box" name="email" required>
+            <input type="text" placeholder="subject" class="box" name="subject" required>
+            <textarea type = "message" class="box" placeholder="your message" id="" cols="30" rows="10" name="message" required></textarea>
+            <!-- <input type="submit" value="send message" class="btn" > -->
+            <button type="submit" value="send message" class="btn">Send</button>
         </form>
 
         <div class="share-container">
@@ -925,7 +927,8 @@
                     class="fab fa-facebook-f"></a>
                 <a href="https://www.instagram.com/__brijesh__2002/" target="_main" class="fab fa-instagram"></a>
                 <a href="https://twitter.com/brijesh_8329" target="_main" class="fab fa-twitter"></a>
-                <a href="https://www.linkedin.com/in/brijesh-gadhiya-848179221/" target="_main" class="fab fa-linkedin"></a>
+                <a href="https://www.linkedin.com/in/brijesh-gadhiya-848179221/" target="_main"
+                    class="fab fa-linkedin"></a>
                 <a href="https://in.pinterest.com/brijesh_8329/" target="_main" class="fab fa-pinterest"></a>
             </div>
         </div>
@@ -936,7 +939,7 @@
     <!------------------------------------------------------------------------------------------------------->
     <!-- footer starts -->
     <footer class="flex-all-center">
-        <p>created by <span> mr. brijesh keshubhai gadhiya </span>  | all rights reserved</p>
+        <p>created by <span> mr. brijesh keshubhai gadhiya </span> | all rights reserved</p>
     </footer>
     <!-- footer Ends -->
     <!------------------------------------------------------------------------------------------------------->

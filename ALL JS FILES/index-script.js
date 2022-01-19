@@ -740,6 +740,12 @@ var swiper = new Swiper(".books-slider", {
     },
 });
 // --------------------------------------------------------------
+let play_songs = document.querySelector('.music_container');
+
+document.querySelector('#play_songs').onclick = () => {
+    player.classList.toggle('active');
+    playMusic();
+}
 // music player 1 starts here
 let player = document.querySelector('.music_container');
 

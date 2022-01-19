@@ -72,7 +72,7 @@ section{
     background: none;
 }
 .btn:hover{
-    background: var(--green);
+    background: red;
     color:#fff;
 }
 .header{
@@ -2650,7 +2650,7 @@ html{
 
   
 footer{
-    height: 12vh;
+    height: 11vh;
     background-color: var(--bg-color);
     box-shadow: var(--box-shadow);
     color: var(--black);
