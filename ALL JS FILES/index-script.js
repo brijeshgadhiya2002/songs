@@ -708,8 +708,6 @@ document.querySelector('#login').onclick = () =>{
     player109.classList.remove('active11');
     player110.classList.remove('active11');
 }
-
-
 let themeToggler = document.querySelector('#theme-toggler');
 
 themeToggler.onclick = () => {

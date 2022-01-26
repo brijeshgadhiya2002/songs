@@ -1427,8 +1427,8 @@ play11.addEventListener("click", () => {
 
 // changing music data
 const loadSong11 = (songs11) => {
-    title11.textCon11t = songs11.title11
-    artist11.textCon11t = songs11.artist11
+    title11.textContent = songs11.title11
+    artist11.textContent = songs11.artist11
     music11.src = "music11/" + songs11.name11 + ".mp3"
     img11.src = "images/" + songs11.name11 + ".webp"
 };
