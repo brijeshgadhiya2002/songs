@@ -742,47 +742,47 @@ let current_time17 = document.getElementById("current_time17");
 const progress_div17 = document.getElementById("progress_div17");
 
 const songs17 = [
-    {//151
+    {//161
         name17: "ykwim",
         title17: "Ykwim",
         artist17: "Karan Arjun"
     },
-    {//152
+    {//162
         name17: "jatt_flex",
         title17: "Jatt Flex",
         artist17: "Amrit Maan"
     },
-    {//153
+    {//163
         name17: "ik_Kahani",
         title17: "Ik Kahani",
         artist17: "Kaka"
     },
-    {//154
+    {//164
         name17: "raule_gaule",
         title17: "Raule Gaule",
         artist17: "Jimmy Kaler"
     },
-    {//155
+    {//165
         name17: "hul_chul",
         title17: "Hul Chul",
         artist17: "korala Maan"
     },
-    {//156
+    {//166
         name17: "raani_haar",
         title17: "Raani Haar",
         artist17: "Nawab"
     },
-    {//157
+    {//167
         name17: "black_effect",
         title17: "Black Effect",
         artist17: "Hardy sandhu"
     },
-    {//158
+    {//168
         name17: "teri_jaati",
         title17: "Teri Jaati",
         artist17:  "Ammy Virk"
     },
-    {//159
+    {//169
         name17: "kudiya_di_lohri",
         title17: "Kudiya Di",
         artist17: "Mannat Noor"
