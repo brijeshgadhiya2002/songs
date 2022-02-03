@@ -54,6 +54,11 @@ document.querySelector('#heaven').onclick = () => {
     player219.classList.remove('active22');
     player220.classList.remove('active22');
 
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
+
 }
 let player182 = document.querySelector('.music_container19');
 
@@ -110,6 +115,11 @@ document.querySelector('#what_if_i_told').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player183 = document.querySelector('.music_container19');
 
@@ -166,6 +176,11 @@ document.querySelector('#we_dont_talk_anymore').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player184 = document.querySelector('.music_container19');
 
@@ -222,6 +237,11 @@ document.querySelector('#roses').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player185 = document.querySelector('.music_container19');
 
@@ -278,6 +298,11 @@ document.querySelector('#falling').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player186 = document.querySelector('.music_container19');
 
@@ -334,6 +359,11 @@ document.querySelector('#so_am_i').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player187 = document.querySelector('.music_container19');
 
@@ -390,6 +420,11 @@ document.querySelector('#there_for_you').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player188 = document.querySelector('.music_container19');
 
@@ -446,6 +481,11 @@ document.querySelector('#run_it').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player189 = document.querySelector('.music_container19');
 
@@ -502,6 +542,11 @@ document.querySelector('#i_dont_care').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player190 = document.querySelector('.music_container19');
 
@@ -558,6 +603,11 @@ document.querySelector('#ihu_ilu').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 
 

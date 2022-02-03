@@ -53,6 +53,11 @@ document.querySelector('#the_spectre').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player192 = document.querySelector('.music_container20');
 
@@ -109,6 +114,11 @@ document.querySelector('#darkside').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player193 = document.querySelector('.music_container20');
 
@@ -165,6 +175,11 @@ document.querySelector('#believer').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player194 = document.querySelector('.music_container20');
 
@@ -221,6 +236,11 @@ document.querySelector('#play_song').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player195 = document.querySelector('.music_container20');
 
@@ -277,6 +297,11 @@ document.querySelector('#ignite').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player196 = document.querySelector('.music_container20');
 
@@ -333,6 +358,11 @@ document.querySelector('#alone_song').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player197 = document.querySelector('.music_container20');
 
@@ -389,6 +419,11 @@ document.querySelector('#on_my_way_song').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player198 = document.querySelector('.music_container20');
 
@@ -445,6 +480,11 @@ document.querySelector('#faded_song').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player199 = document.querySelector('.music_container20');
 
@@ -501,6 +541,11 @@ document.querySelector('#lily').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player200 = document.querySelector('.music_container20');
 
@@ -557,6 +602,11 @@ document.querySelector('#Sing-Me-to-Sleep-Song').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 
 let x20 = document.querySelector('.music_container20');

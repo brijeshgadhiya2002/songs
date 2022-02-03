@@ -54,7 +54,10 @@ document.querySelector('#sugar_and_brownies').onclick = () => {
     player219.classList.remove('active22');
     player220.classList.remove('active22');
 
-    
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player202 = document.querySelector('.music_container21');
 
@@ -111,6 +114,11 @@ document.querySelector('#mood').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player203 = document.querySelector('.music_container21');
 
@@ -167,6 +175,11 @@ document.querySelector('#treat_you_better').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player204 = document.querySelector('.music_container21');
 
@@ -223,6 +236,11 @@ document.querySelector('#Arcade').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player205 = document.querySelector('.music_container21');
 
@@ -279,6 +297,11 @@ document.querySelector('#plz_dont_go').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player206 = document.querySelector('.music_container21');
 
@@ -335,6 +358,11 @@ document.querySelector('#shallow').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player207 = document.querySelector('.music_container21');
 
@@ -391,6 +419,11 @@ document.querySelector('#song_18').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player208 = document.querySelector('.music_container21');
 
@@ -447,6 +480,11 @@ document.querySelector('#see_you_again').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 let player209 = document.querySelector('.music_container21');
 
@@ -503,6 +541,12 @@ document.querySelector('#here_with_me').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
+
 }
 let player210 = document.querySelector('.music_container21');
 
@@ -559,6 +603,11 @@ document.querySelector('#perfect').onclick = () => {
     player218.classList.remove('active22');
     player219.classList.remove('active22');
     player220.classList.remove('active22');
+
+    languages.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
 }
 
 
