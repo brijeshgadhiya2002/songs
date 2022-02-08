@@ -68,7 +68,6 @@ document.querySelector('#search-btn').onclick = () => {
     player219.classList.remove('active22');
     player220.classList.remove('active22');
 
-  
 }
 let loginForm = document.querySelector('.login-form');
 
