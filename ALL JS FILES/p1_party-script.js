@@ -162,9 +162,7 @@ document.querySelector('#login-btn').onclick = () => {
     searchForm.classList.remove('active');
     navbar.classList.remove('active');
     languages.classList.remove('active');
-    player.classList.remove('active');
-
-   
+    player.classList.remove('active'); 
 }
 let navbar = document.querySelector('.navbar');
 
